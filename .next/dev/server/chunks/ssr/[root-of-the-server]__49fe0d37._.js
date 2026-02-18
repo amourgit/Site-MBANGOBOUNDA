@@ -365,6 +365,92 @@ function Header() {
           background: linear-gradient(90deg, transparent, rgba(var(--bn-green-rgb),0.30), transparent);
           margin: 8px 14px;
         }
+
+        .mobile-overlay {
+          position: fixed;
+          inset: 0;
+          z-index: 60;
+          background: rgba(0,0,0,0);
+          backdrop-filter: none;
+          -webkit-backdrop-filter: none;
+          pointer-events: none;
+          transition: background 0.28s ease;
+        }
+        .mobile-overlay.open {
+          background: rgba(0,0,0,0.46);
+          backdrop-filter: blur(10px) saturate(140%);
+          -webkit-backdrop-filter: blur(10px) saturate(140%);
+          pointer-events: auto;
+        }
+
+        .mobile-panel {
+          width: min(100%, 1160px);
+          margin: 0 auto;
+          max-height: 70vh;
+          overflow: auto;
+          border-radius: 0 0 18px 18px;
+          background: rgba(18, 10, 4, 0.88);
+          backdrop-filter: blur(22px) saturate(170%);
+          -webkit-backdrop-filter: blur(22px) saturate(170%);
+          border: 1px solid rgba(var(--bn-green-rgb),0.24);
+          border-top: none;
+          box-shadow: 0 18px 70px rgba(0,0,0,0.55);
+          transform: translateY(-110%);
+          will-change: transform;
+          transition:
+            transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .mobile-panel.open {
+          transform: translateY(0);
+        }
+
+        .mobile-panel-head {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 10px 12px;
+          border-bottom: 1px solid rgba(var(--bn-green-rgb),0.18);
+        }
+        .mobile-panel-title {
+          font-family: 'Cormorant Garamond', serif;
+          font-size: 0.78rem;
+          letter-spacing: 0.26em;
+          text-transform: uppercase;
+          color: rgba(250,243,232,0.70);
+        }
+        .mobile-close {
+          width: 38px;
+          height: 38px;
+          border-radius: 10px;
+          background: rgba(var(--bn-green-rgb),0.10);
+          border: 1px solid rgba(var(--bn-green-rgb),0.20);
+          color: rgba(250,243,232,0.92);
+          cursor: pointer;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          transition: background 0.2s ease, transform 0.2s ease;
+        }
+        .mobile-close:hover {
+          background: rgba(var(--bn-green-rgb),0.16);
+          transform: scale(1.03);
+        }
+
+        .mobile-list {
+          list-style: none;
+          margin: 0;
+          padding: 10px 12px 16px;
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+        }
+        .mob-link {
+          border: 1px solid transparent;
+        }
+        .mob-link:hover,
+        .mob-link.is-active {
+          border-color: rgba(var(--bn-green-rgb),0.22);
+        }
       `
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-header.tsx",
@@ -419,12 +505,12 @@ function Header() {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sections/sect-header.tsx",
-                                                lineNumber: 345,
+                                                lineNumber: 431,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/sect-header.tsx",
-                                            lineNumber: 344,
+                                            lineNumber: 430,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -438,7 +524,7 @@ function Header() {
                                                     children: "BA NGOMBOUNDA"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/sect-header.tsx",
-                                                    lineNumber: 354,
+                                                    lineNumber: 440,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -446,19 +532,19 @@ function Header() {
                                                     children: "Clan & Tradition"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/sect-header.tsx",
-                                                    lineNumber: 355,
+                                                    lineNumber: 441,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/sections/sect-header.tsx",
-                                            lineNumber: 353,
+                                            lineNumber: 439,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/sect-header.tsx",
-                                    lineNumber: 343,
+                                    lineNumber: 429,
                                     columnNumber: 13
                                 }, this),
                                 isDesktop && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -486,30 +572,30 @@ function Header() {
                                                         className: "nav-dot"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/sections/sect-header.tsx",
-                                                        lineNumber: 382,
+                                                        lineNumber: 468,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "link-bar"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/sections/sect-header.tsx",
-                                                        lineNumber: 383,
+                                                        lineNumber: 469,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/sections/sect-header.tsx",
-                                                lineNumber: 377,
+                                                lineNumber: 463,
                                                 columnNumber: 21
                                             }, this)
                                         }, link.href, false, {
                                             fileName: "[project]/components/sections/sect-header.tsx",
-                                            lineNumber: 372,
+                                            lineNumber: 458,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/sect-header.tsx",
-                                    lineNumber: 361,
+                                    lineNumber: 447,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -526,12 +612,12 @@ function Header() {
                                             children: "Rejoindre"
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/sect-header.tsx",
-                                            lineNumber: 394,
+                                            lineNumber: 480,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/sect-header.tsx",
-                                        lineNumber: 393,
+                                        lineNumber: 479,
                                         columnNumber: 17
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         className: "ham-btn",
@@ -547,7 +633,7 @@ function Header() {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sections/sect-header.tsx",
-                                                lineNumber: 403,
+                                                lineNumber: 489,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -558,7 +644,7 @@ function Header() {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sections/sect-header.tsx",
-                                                lineNumber: 407,
+                                                lineNumber: 493,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -569,119 +655,194 @@ function Header() {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sections/sect-header.tsx",
-                                                lineNumber: 411,
+                                                lineNumber: 497,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/sections/sect-header.tsx",
-                                        lineNumber: 397,
+                                        lineNumber: 483,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/sect-header.tsx",
-                                    lineNumber: 391,
+                                    lineNumber: 477,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sections/sect-header.tsx",
-                            lineNumber: 335,
+                            lineNumber: 421,
                             columnNumber: 11
                         }, this),
-                        !isDesktop && menuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "mobile-menu-inner",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                style: {
-                                    listStyle: "none",
-                                    margin: 0,
-                                    padding: 0
-                                },
+                        !isDesktop && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: `mobile-overlay ${menuOpen ? "open" : ""}`,
+                            onClick: ()=>setMenuOpen(false),
+                            "aria-hidden": !menuOpen,
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: `mobile-panel ${menuOpen ? "open" : ""}`,
+                                onClick: (e)=>e.stopPropagation(),
+                                role: "dialog",
+                                "aria-modal": "true",
+                                "aria-label": "Menu de navigation",
                                 children: [
-                                    navLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                href: link.href,
-                                                className: `mob-link ${pathname === link.href ? "is-active" : ""}`,
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        style: {
-                                                            fontSize: "1.1rem"
-                                                        },
-                                                        children: link.icon
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/sections/sect-header.tsx",
-                                                        lineNumber: 430,
-                                                        columnNumber: 23
-                                                    }, this),
-                                                    link.label
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/components/sections/sect-header.tsx",
-                                                lineNumber: 426,
-                                                columnNumber: 21
-                                            }, this)
-                                        }, link.href, false, {
-                                            fileName: "[project]/components/sections/sect-header.tsx",
-                                            lineNumber: 425,
-                                            columnNumber: 19
-                                        }, this)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "mob-divider"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/sections/sect-header.tsx",
-                                            lineNumber: 435,
-                                            columnNumber: 21
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/sections/sect-header.tsx",
-                                        lineNumber: 435,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                            href: "/nous-contacter",
-                                            className: "cta-btn",
-                                            style: {
-                                                width: "100%"
-                                            },
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                children: "✨ Rejoindre le Clan"
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "mobile-panel-head",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "mobile-panel-title",
+                                                children: "Navigation"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sections/sect-header.tsx",
-                                                lineNumber: 438,
-                                                columnNumber: 21
+                                                lineNumber: 520,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                type: "button",
+                                                className: "mobile-close",
+                                                onClick: ()=>setMenuOpen(false),
+                                                "aria-label": "Fermer le menu",
+                                                children: "✕"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/sections/sect-header.tsx",
+                                                lineNumber: 521,
+                                                columnNumber: 19
                                             }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/sections/sect-header.tsx",
-                                            lineNumber: 437,
-                                            columnNumber: 19
-                                        }, this)
-                                    }, void 0, false, {
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/components/sections/sect-header.tsx",
-                                        lineNumber: 436,
+                                        lineNumber: 519,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                        className: "mobile-list",
+                                        children: [
+                                            navLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: link.href,
+                                                        className: `mob-link ${pathname === link.href ? "is-active" : ""}`,
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                style: {
+                                                                    fontSize: "1.1rem"
+                                                                },
+                                                                children: link.icon
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/sections/sect-header.tsx",
+                                                                lineNumber: 538,
+                                                                columnNumber: 25
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                style: {
+                                                                    display: "flex",
+                                                                    flexDirection: "column",
+                                                                    gap: "2px"
+                                                                },
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        style: {
+                                                                            lineHeight: 1.1
+                                                                        },
+                                                                        children: link.label
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/sections/sect-header.tsx",
+                                                                        lineNumber: 540,
+                                                                        columnNumber: 27
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        style: {
+                                                                            fontSize: "0.70rem",
+                                                                            letterSpacing: "0.20em",
+                                                                            textTransform: "uppercase",
+                                                                            color: "rgba(250,243,232,0.52)",
+                                                                            lineHeight: 1.1
+                                                                        },
+                                                                        children: "Découvrir"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/sections/sect-header.tsx",
+                                                                        lineNumber: 541,
+                                                                        columnNumber: 27
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/components/sections/sect-header.tsx",
+                                                                lineNumber: 539,
+                                                                columnNumber: 25
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/sections/sect-header.tsx",
+                                                        lineNumber: 534,
+                                                        columnNumber: 23
+                                                    }, this)
+                                                }, link.href, false, {
+                                                    fileName: "[project]/components/sections/sect-header.tsx",
+                                                    lineNumber: 533,
+                                                    columnNumber: 21
+                                                }, this)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "mob-divider"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/sections/sect-header.tsx",
+                                                    lineNumber: 555,
+                                                    columnNumber: 23
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/sections/sect-header.tsx",
+                                                lineNumber: 555,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                    href: "/nous-contacter",
+                                                    className: "cta-btn",
+                                                    style: {
+                                                        width: "100%"
+                                                    },
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        children: "Rejoindre le Clan"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/sections/sect-header.tsx",
+                                                        lineNumber: 558,
+                                                        columnNumber: 23
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/sections/sect-header.tsx",
+                                                    lineNumber: 557,
+                                                    columnNumber: 21
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/sections/sect-header.tsx",
+                                                lineNumber: 556,
+                                                columnNumber: 19
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/sections/sect-header.tsx",
+                                        lineNumber: 531,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/sections/sect-header.tsx",
-                                lineNumber: 423,
+                                lineNumber: 512,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/sections/sect-header.tsx",
-                            lineNumber: 422,
+                            lineNumber: 507,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/sections/sect-header.tsx",
-                    lineNumber: 329,
+                    lineNumber: 415,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-header.tsx",
-                lineNumber: 313,
+                lineNumber: 399,
                 columnNumber: 7
             }, this)
         ]

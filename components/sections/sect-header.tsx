@@ -308,6 +308,92 @@ export default function Header() {
           background: linear-gradient(90deg, transparent, rgba(var(--bn-green-rgb),0.30), transparent);
           margin: 8px 14px;
         }
+
+        .mobile-overlay {
+          position: fixed;
+          inset: 0;
+          z-index: 60;
+          background: rgba(0,0,0,0);
+          backdrop-filter: none;
+          -webkit-backdrop-filter: none;
+          pointer-events: none;
+          transition: background 0.28s ease;
+        }
+        .mobile-overlay.open {
+          background: rgba(0,0,0,0.46);
+          backdrop-filter: blur(10px) saturate(140%);
+          -webkit-backdrop-filter: blur(10px) saturate(140%);
+          pointer-events: auto;
+        }
+
+        .mobile-panel {
+          width: min(100%, 1160px);
+          margin: 0 auto;
+          max-height: 70vh;
+          overflow: auto;
+          border-radius: 0 0 18px 18px;
+          background: rgba(18, 10, 4, 0.88);
+          backdrop-filter: blur(22px) saturate(170%);
+          -webkit-backdrop-filter: blur(22px) saturate(170%);
+          border: 1px solid rgba(var(--bn-green-rgb),0.24);
+          border-top: none;
+          box-shadow: 0 18px 70px rgba(0,0,0,0.55);
+          transform: translateY(-110%);
+          will-change: transform;
+          transition:
+            transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .mobile-panel.open {
+          transform: translateY(0);
+        }
+
+        .mobile-panel-head {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 10px 12px;
+          border-bottom: 1px solid rgba(var(--bn-green-rgb),0.18);
+        }
+        .mobile-panel-title {
+          font-family: 'Cormorant Garamond', serif;
+          font-size: 0.78rem;
+          letter-spacing: 0.26em;
+          text-transform: uppercase;
+          color: rgba(250,243,232,0.70);
+        }
+        .mobile-close {
+          width: 38px;
+          height: 38px;
+          border-radius: 10px;
+          background: rgba(var(--bn-green-rgb),0.10);
+          border: 1px solid rgba(var(--bn-green-rgb),0.20);
+          color: rgba(250,243,232,0.92);
+          cursor: pointer;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          transition: background 0.2s ease, transform 0.2s ease;
+        }
+        .mobile-close:hover {
+          background: rgba(var(--bn-green-rgb),0.16);
+          transform: scale(1.03);
+        }
+
+        .mobile-list {
+          list-style: none;
+          margin: 0;
+          padding: 10px 12px 16px;
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+        }
+        .mob-link {
+          border: 1px solid transparent;
+        }
+        .mob-link:hover,
+        .mob-link.is-active {
+          border-color: rgba(var(--bn-green-rgb),0.22);
+        }
       `}</style>
 
       <header
@@ -417,28 +503,63 @@ export default function Header() {
             </div>
           </div>
 
-          {/* ── Dropdown mobile ── */}
-          {!isDesktop && menuOpen && (
-            <div className="mobile-menu-inner">
-              <ul style={{ listStyle: "none", margin: 0, padding: 0 }}>
-                {navLinks.map((link) => (
-                  <li key={link.href}>
-                    <Link
-                      href={link.href}
-                      className={`mob-link ${pathname === link.href ? "is-active" : ""}`}
-                    >
-                      <span style={{ fontSize: "1.1rem" }}>{link.icon}</span>
-                      {link.label}
+          {!isDesktop && (
+            <div
+              className={`mobile-overlay ${menuOpen ? "open" : ""}`}
+              onClick={() => setMenuOpen(false)}
+              aria-hidden={!menuOpen}
+            >
+              <div
+                className={`mobile-panel ${menuOpen ? "open" : ""}`}
+                onClick={(e) => e.stopPropagation()}
+                role="dialog"
+                aria-modal="true"
+                aria-label="Menu de navigation"
+              >
+                <div className="mobile-panel-head">
+                  <span className="mobile-panel-title">Navigation</span>
+                  <button
+                    type="button"
+                    className="mobile-close"
+                    onClick={() => setMenuOpen(false)}
+                    aria-label="Fermer le menu"
+                  >
+                    ✕
+                  </button>
+                </div>
+
+                <ul className="mobile-list">
+                  {navLinks.map((link) => (
+                    <li key={link.href}>
+                      <Link
+                        href={link.href}
+                        className={`mob-link ${pathname === link.href ? "is-active" : ""}`}
+                      >
+                        <span style={{ fontSize: "1.1rem" }}>{link.icon}</span>
+                        <span style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
+                          <span style={{ lineHeight: 1.1 }}>{link.label}</span>
+                          <span style={{
+                            fontSize: "0.70rem",
+                            letterSpacing: "0.20em",
+                            textTransform: "uppercase",
+                            color: "rgba(250,243,232,0.52)",
+                            lineHeight: 1.1,
+                          }}>
+                            Découvrir
+                          </span>
+                        </span>
+                      </Link>
+                    </li>
+                  ))}
+
+                  <li><div className="mob-divider" /></li>
+                  <li>
+                    <Link href="/nous-contacter" className="cta-btn" style={{ width: "100%" }}>
+                      <span>Rejoindre le Clan</span>
                     </Link>
                   </li>
-                ))}
-                <li><div className="mob-divider" /></li>
-                <li>
-                  <Link href="/nous-contacter" className="cta-btn" style={{ width: "100%" }}>
-                    <span>✨ Rejoindre le Clan</span>
-                  </Link>
-                </li>
-              </ul>
+                </ul>
+              </div>
             </div>
           )}
 
