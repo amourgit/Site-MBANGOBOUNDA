@@ -557,7 +557,6 @@ export default function SectionEvenements() {
 
         .evenements-root {
           position: relative;
-          background: #050302;
           padding: 110px 24px 100px;
           overflow: hidden;
         }

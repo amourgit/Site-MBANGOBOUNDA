@@ -466,7 +466,6 @@ export default function SectionValeurs() {
 
         .valeurs-root {
           position: relative;
-          background: #080502;
           padding: 120px 24px 100px;
           overflow: hidden;
         }

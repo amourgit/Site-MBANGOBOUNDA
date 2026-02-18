@@ -2128,7 +2128,6 @@ function SectionHistoire() {
 
         .histoire-root {
           position: relative;
-          background: #0a0603;
           padding: 120px 24px 100px;
           overflow: hidden;
         }
@@ -2204,7 +2203,7 @@ function SectionHistoire() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionHeader, {}, void 0, false, {
                             fileName: "[project]/components/sections/sect-histoire.tsx",
-                            lineNumber: 523,
+                            lineNumber: 522,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2216,7 +2215,7 @@ function SectionHistoire() {
                                     className: "timeline-line"
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/sect-histoire.tsx",
-                                    lineNumber: 528,
+                                    lineNumber: 527,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2230,34 +2229,34 @@ function SectionHistoire() {
                                             index: i
                                         }, i, false, {
                                             fileName: "[project]/components/sections/sect-histoire.tsx",
-                                            lineNumber: 533,
+                                            lineNumber: 532,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/sect-histoire.tsx",
-                                    lineNumber: 531,
+                                    lineNumber: 530,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sections/sect-histoire.tsx",
-                            lineNumber: 526,
+                            lineNumber: 525,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(CtaButton, {}, void 0, false, {
                             fileName: "[project]/components/sections/sect-histoire.tsx",
-                            lineNumber: 539,
+                            lineNumber: 538,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/sections/sect-histoire.tsx",
-                    lineNumber: 522,
+                    lineNumber: 521,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-histoire.tsx",
-                lineNumber: 521,
+                lineNumber: 520,
                 columnNumber: 7
             }, this)
         ]
@@ -3095,7 +3094,6 @@ function SectionValeurs() {
 
         .valeurs-root {
           position: relative;
-          background: #080502;
           padding: 120px 24px 100px;
           overflow: hidden;
         }
@@ -3157,7 +3155,7 @@ function SectionValeurs() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Devise, {}, void 0, false, {
                             fileName: "[project]/components/sections/sect-valeur.tsx",
-                            lineNumber: 522,
+                            lineNumber: 521,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3167,28 +3165,28 @@ function SectionValeurs() {
                                     index: i
                                 }, v.id, false, {
                                     fileName: "[project]/components/sections/sect-valeur.tsx",
-                                    lineNumber: 527,
+                                    lineNumber: 526,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/sections/sect-valeur.tsx",
-                            lineNumber: 525,
+                            lineNumber: 524,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(BottomBandeau, {}, void 0, false, {
                             fileName: "[project]/components/sections/sect-valeur.tsx",
-                            lineNumber: 532,
+                            lineNumber: 531,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/sections/sect-valeur.tsx",
-                    lineNumber: 521,
+                    lineNumber: 520,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-valeur.tsx",
-                lineNumber: 520,
+                lineNumber: 519,
                 columnNumber: 7
             }, this)
         ]
@@ -6276,7 +6274,6 @@ function SectionEvenements() {
 
         .evenements-root {
           position: relative;
-          background: #050302;
           padding: 110px 24px 100px;
           overflow: hidden;
         }
@@ -6352,7 +6349,7 @@ function SectionEvenements() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionHeader, {}, void 0, false, {
                             fileName: "[project]/components/sections/sect-events.tsx",
-                            lineNumber: 627,
+                            lineNumber: 626,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6364,28 +6361,28 @@ function SectionEvenements() {
                                     spanRows: evt.spanRows
                                 }, evt.id, false, {
                                     fileName: "[project]/components/sections/sect-events.tsx",
-                                    lineNumber: 631,
+                                    lineNumber: 630,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/sections/sect-events.tsx",
-                            lineNumber: 629,
+                            lineNumber: 628,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(CtaEvenements, {}, void 0, false, {
                             fileName: "[project]/components/sections/sect-events.tsx",
-                            lineNumber: 641,
+                            lineNumber: 640,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/sections/sect-events.tsx",
-                    lineNumber: 626,
+                    lineNumber: 625,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-events.tsx",
-                lineNumber: 625,
+                lineNumber: 624,
                 columnNumber: 7
             }, this)
         ]
@@ -8209,7 +8206,55 @@ function Footer() {
     const [topRef, topInView] = useInView(0.1);
     const [colsRef, colsInView] = useInView(0.1);
     const [bottomRef, bottomInView] = useInView(0.1);
+    const footerRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const floatLogoRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     const year = new Date().getFullYear();
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "Footer.useEffect": ()=>{
+            const footerEl = footerRef.current;
+            const logoEl = floatLogoRef.current;
+            if (!footerEl || !logoEl) return;
+            let timer = null;
+            const place = {
+                "Footer.useEffect.place": ()=>{
+                    const footerRect = footerEl.getBoundingClientRect();
+                    const logoRect = logoEl.getBoundingClientRect();
+                    const maxX = Math.max(0, footerRect.width - logoRect.width);
+                    const maxY = Math.max(0, footerRect.height - logoRect.height);
+                    const x = Math.round(Math.random() * maxX);
+                    const y = Math.round(Math.random() * maxY);
+                    logoEl.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+                }
+            }["Footer.useEffect.place"];
+            const loop = {
+                "Footer.useEffect.loop": ()=>{
+                    place();
+                    const next = 5500 + Math.random() * 3500;
+                    timer = setTimeout(loop, next);
+                }
+            }["Footer.useEffect.loop"];
+            // Position initiale après layout
+            const raf = requestAnimationFrame({
+                "Footer.useEffect.raf": ()=>{
+                    place();
+                    loop();
+                }
+            }["Footer.useEffect.raf"]);
+            const onResize = {
+                "Footer.useEffect.onResize": ()=>place()
+            }["Footer.useEffect.onResize"];
+            window.addEventListener("resize", onResize, {
+                passive: true
+            });
+            return ({
+                "Footer.useEffect": ()=>{
+                    cancelAnimationFrame(raf);
+                    window.removeEventListener("resize", onResize);
+                    if (timer) clearTimeout(timer);
+                }
+            })["Footer.useEffect"];
+        }
+    }["Footer.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("style", {
@@ -8239,6 +8284,33 @@ function Footer() {
           mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%);
           -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%);
           pointer-events: none;
+        }
+
+        .footer-float-logo {
+          position: absolute;
+          inset: 0;
+          pointer-events: none;
+          z-index: 0;
+        }
+
+        .footer-float-logo > div {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: min(300px, 55vw);
+          height: min(300px, 55vw);
+          opacity: 0.14;
+          filter: saturate(1.05) contrast(1.06);
+          transition: transform 6.5s cubic-bezier(0.34, 1.1, 0.64, 1);
+          will-change: transform;
+        }
+
+        @media (max-width: 700px) {
+          .footer-float-logo > div {
+            width: 220px;
+            height: 220px;
+            opacity: 0.12;
+          }
         }
 
         /* Halo supérieur */
@@ -8394,641 +8466,721 @@ function Footer() {
       `
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-footer.tsx",
-                lineNumber: 195,
+                lineNumber: 239,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
+                ref: footerRef,
                 className: "footer-root",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "footer-sep"
+                        className: "footer-float-logo",
+                        "aria-hidden": "true",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            ref: floatLogoRef,
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                src: "/images/logo-BN-removebg.png",
+                                alt: "",
+                                fill: true,
+                                priority: false,
+                                sizes: "(max-width: 700px) 220px, 300px",
+                                style: {
+                                    objectFit: "contain"
+                                }
+                            }, void 0, false, {
+                                fileName: "[project]/components/sections/sect-footer.tsx",
+                                lineNumber: 449,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/components/sections/sect-footer.tsx",
+                            lineNumber: 448,
+                            columnNumber: 11
+                        }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-footer.tsx",
-                        lineNumber: 376,
+                        lineNumber: 447,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "footer-top",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            ref: topRef,
-                            className: "footer-top-inner",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        opacity: topInView ? 1 : 0,
-                                        transform: topInView ? "translateY(0)" : "translateY(20px)",
-                                        transition: "opacity 0.8s ease, transform 0.8s cubic-bezier(0.34,1.1,0.64,1)"
-                                    },
+                        style: {
+                            position: "relative",
+                            zIndex: 1
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "footer-sep"
+                            }, void 0, false, {
+                                fileName: "[project]/components/sections/sect-footer.tsx",
+                                lineNumber: 461,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "footer-top",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    ref: topRef,
+                                    className: "footer-top-inner",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             style: {
-                                                display: "flex",
-                                                alignItems: "center",
-                                                gap: "14px",
-                                                marginBottom: "18px"
+                                                opacity: topInView ? 1 : 0,
+                                                transform: topInView ? "translateY(0)" : "translateY(20px)",
+                                                transition: "opacity 0.8s ease, transform 0.8s cubic-bezier(0.34,1.1,0.64,1)"
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     style: {
-                                                        width: "48px",
-                                                        height: "48px",
-                                                        borderRadius: "50%",
-                                                        border: "1.5px solid rgba(200,169,110,0.45)",
                                                         display: "flex",
                                                         alignItems: "center",
-                                                        justifyContent: "center",
-                                                        background: "radial-gradient(circle at 35% 35%, rgba(200,169,110,0.12), rgba(0,0,0,0.4))",
-                                                        flexShrink: 0,
-                                                        overflow: "hidden"
+                                                        gap: "14px",
+                                                        marginBottom: "18px"
                                                     },
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: "/images/logo-BN.png",
-                                                        alt: "Logo BA NGOMBOUNDA",
-                                                        width: 48,
-                                                        height: 48,
-                                                        style: {
-                                                            width: "100%",
-                                                            height: "100%",
-                                                            objectFit: "cover"
-                                                        }
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/sections/sect-footer.tsx",
-                                                        lineNumber: 404,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/sections/sect-footer.tsx",
-                                                    lineNumber: 392,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             style: {
-                                                                fontFamily: "'Playfair Display', serif",
-                                                                fontSize: "1.3rem",
-                                                                fontWeight: 700,
-                                                                background: "linear-gradient(135deg, #E8C97E 30%, #fff 70%)",
-                                                                WebkitBackgroundClip: "text",
-                                                                WebkitTextFillColor: "transparent",
-                                                                backgroundClip: "text",
-                                                                lineHeight: 1,
-                                                                letterSpacing: "0.02em"
+                                                                width: "48px",
+                                                                height: "48px",
+                                                                borderRadius: "50%",
+                                                                border: "1.5px solid rgba(200,169,110,0.45)",
+                                                                display: "flex",
+                                                                alignItems: "center",
+                                                                justifyContent: "center",
+                                                                background: "radial-gradient(circle at 35% 35%, rgba(200,169,110,0.12), rgba(0,0,0,0.4))",
+                                                                flexShrink: 0,
+                                                                overflow: "hidden"
                                                             },
-                                                            children: "BA NGOMBOUNDA"
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: "/images/logo-BN.png",
+                                                                alt: "Logo BA NGOMBOUNDA",
+                                                                width: 48,
+                                                                height: 48,
+                                                                style: {
+                                                                    width: "100%",
+                                                                    height: "100%",
+                                                                    objectFit: "cover"
+                                                                }
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/sections/sect-footer.tsx",
+                                                                lineNumber: 489,
+                                                                columnNumber: 19
+                                                            }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/sections/sect-footer.tsx",
-                                                            lineNumber: 413,
-                                                            columnNumber: 19
+                                                            lineNumber: 477,
+                                                            columnNumber: 17
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            style: {
-                                                                fontFamily: "'Cormorant Garamond', serif",
-                                                                fontSize: "0.60rem",
-                                                                letterSpacing: "0.22em",
-                                                                textTransform: "uppercase",
-                                                                color: "rgba(200,169,110,0.55)",
-                                                                marginTop: "3px"
-                                                            },
-                                                            children: "Clan & Tradition"
-                                                        }, void 0, false, {
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    style: {
+                                                                        fontFamily: "'Playfair Display', serif",
+                                                                        fontSize: "1.3rem",
+                                                                        fontWeight: 700,
+                                                                        background: "linear-gradient(135deg, #E8C97E 30%, #fff 70%)",
+                                                                        WebkitBackgroundClip: "text",
+                                                                        WebkitTextFillColor: "transparent",
+                                                                        backgroundClip: "text",
+                                                                        lineHeight: 1,
+                                                                        letterSpacing: "0.02em"
+                                                                    },
+                                                                    children: "BA NGOMBOUNDA"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/sections/sect-footer.tsx",
+                                                                    lineNumber: 498,
+                                                                    columnNumber: 19
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    style: {
+                                                                        fontFamily: "'Cormorant Garamond', serif",
+                                                                        fontSize: "0.60rem",
+                                                                        letterSpacing: "0.22em",
+                                                                        textTransform: "uppercase",
+                                                                        color: "rgba(200,169,110,0.55)",
+                                                                        marginTop: "3px"
+                                                                    },
+                                                                    children: "Clan & Tradition"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/sections/sect-footer.tsx",
+                                                                    lineNumber: 511,
+                                                                    columnNumber: 19
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
                                                             fileName: "[project]/components/sections/sect-footer.tsx",
-                                                            lineNumber: 426,
-                                                            columnNumber: 19
+                                                            lineNumber: 497,
+                                                            columnNumber: 17
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/sections/sect-footer.tsx",
-                                                    lineNumber: 412,
-                                                    columnNumber: 17
+                                                    lineNumber: 476,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    style: {
+                                                        display: "flex",
+                                                        alignItems: "center",
+                                                        gap: "10px",
+                                                        flexWrap: "wrap"
+                                                    },
+                                                    children: DEVISE.map((mot, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            style: {
+                                                                display: "inline-flex",
+                                                                alignItems: "center",
+                                                                gap: "10px"
+                                                            },
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    style: {
+                                                                        fontFamily: "'Playfair Display', serif",
+                                                                        fontStyle: "italic",
+                                                                        fontSize: "1.05rem",
+                                                                        color: DEVISE_COLORS[i],
+                                                                        opacity: 0.85
+                                                                    },
+                                                                    children: mot
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/sections/sect-footer.tsx",
+                                                                    lineNumber: 528,
+                                                                    columnNumber: 21
+                                                                }, this),
+                                                                i < DEVISE.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    style: {
+                                                                        width: "4px",
+                                                                        height: "4px",
+                                                                        borderRadius: "50%",
+                                                                        background: "rgba(200,169,110,0.35)",
+                                                                        display: "inline-block"
+                                                                    }
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/sections/sect-footer.tsx",
+                                                                    lineNumber: 538,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, mot, true, {
+                                                            fileName: "[project]/components/sections/sect-footer.tsx",
+                                                            lineNumber: 527,
+                                                            columnNumber: 19
+                                                        }, this))
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/sections/sect-footer.tsx",
+                                                    lineNumber: 525,
+                                                    columnNumber: 15
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/sections/sect-footer.tsx",
-                                            lineNumber: 391,
-                                            columnNumber: 15
+                                            lineNumber: 470,
+                                            columnNumber: 13
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                width: "1px",
+                                                alignSelf: "stretch",
+                                                background: "linear-gradient(to bottom, transparent, rgba(200,169,110,0.20), transparent)",
+                                                flexShrink: 0,
+                                                display: "none"
+                                            },
+                                            className: "vert-sep"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/sections/sect-footer.tsx",
+                                            lineNumber: 551,
+                                            columnNumber: 13
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                flex: 1,
+                                                minWidth: "280px",
+                                                maxWidth: "420px",
+                                                opacity: topInView ? 1 : 0,
+                                                transform: topInView ? "translateX(0)" : "translateX(30px)",
+                                                transition: "opacity 0.8s 0.2s ease, transform 0.8s 0.2s cubic-bezier(0.34,1.1,0.64,1)"
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    style: {
+                                                        fontFamily: "'Cormorant Garamond', serif",
+                                                        fontSize: "0.72rem",
+                                                        letterSpacing: "0.22em",
+                                                        textTransform: "uppercase",
+                                                        color: "#C8A96E",
+                                                        margin: "0 0 8px 0"
+                                                    },
+                                                    children: "Restez informés"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/sections/sect-footer.tsx",
+                                                    lineNumber: 568,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    style: {
+                                                        fontFamily: "'Cormorant Garamond', serif",
+                                                        fontSize: "1.02rem",
+                                                        color: "rgba(255,255,255,0.50)",
+                                                        margin: "0 0 16px 0",
+                                                        lineHeight: 1.6
+                                                    },
+                                                    children: "Recevez les actualités du clan directement dans votre boîte mail."
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/sections/sect-footer.tsx",
+                                                    lineNumber: 578,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    style: {
+                                                        display: "flex"
+                                                    },
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                            type: "email",
+                                                            placeholder: "votre@email.com",
+                                                            className: "nl-input"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/sections/sect-footer.tsx",
+                                                            lineNumber: 588,
+                                                            columnNumber: 17
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                            className: "nl-btn",
+                                                            children: "S'abonner"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/sections/sect-footer.tsx",
+                                                            lineNumber: 593,
+                                                            columnNumber: 17
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/sections/sect-footer.tsx",
+                                                    lineNumber: 587,
+                                                    columnNumber: 15
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/sections/sect-footer.tsx",
+                                            lineNumber: 560,
+                                            columnNumber: 13
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/sections/sect-footer.tsx",
+                                    lineNumber: 467,
+                                    columnNumber: 11
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/components/sections/sect-footer.tsx",
+                                lineNumber: 466,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                style: {
+                                    margin: "0 40px"
+                                },
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        maxWidth: "1200px",
+                                        margin: "0 auto"
+                                    },
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "footer-sep"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sections/sect-footer.tsx",
+                                        lineNumber: 603,
+                                        columnNumber: 13
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/sections/sect-footer.tsx",
+                                    lineNumber: 602,
+                                    columnNumber: 11
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/components/sections/sect-footer.tsx",
+                                lineNumber: 601,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "footer-cols",
+                                style: {
+                                    paddingTop: "48px"
+                                },
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    ref: colsRef,
+                                    className: "footer-cols-inner",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                opacity: colsInView ? 1 : 0,
+                                                transform: colsInView ? "translateY(0)" : "translateY(24px)",
+                                                transition: "opacity 0.8s ease, transform 0.8s cubic-bezier(0.34,1.1,0.64,1)"
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    style: {
+                                                        fontFamily: "'Cormorant Garamond', serif",
+                                                        fontSize: "1.02rem",
+                                                        lineHeight: 1.85,
+                                                        color: "rgba(255,255,255,0.42)",
+                                                        margin: "0 0 28px 0",
+                                                        maxWidth: "320px"
+                                                    },
+                                                    children: "Une communauté familiale unie par les valeurs de l'Afrique, dédiée à préserver nos traditions et bâtir un avenir prospère pour nos enfants et petits-enfants."
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/sections/sect-footer.tsx",
+                                                    lineNumber: 619,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    style: {
+                                                        marginBottom: "28px"
+                                                    },
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "col-title",
+                                                            style: {
+                                                                marginBottom: "14px"
+                                                            },
+                                                            children: "Nous suivre"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/sections/sect-footer.tsx",
+                                                            lineNumber: 634,
+                                                            columnNumber: 17
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            style: {
+                                                                display: "flex",
+                                                                gap: "10px",
+                                                                flexWrap: "wrap"
+                                                            },
+                                                            children: SOCIALS.map((s, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SocialBtn, {
+                                                                    item: s,
+                                                                    delay: 0.1 + i * 0.07,
+                                                                    inView: colsInView
+                                                                }, s.label, false, {
+                                                                    fileName: "[project]/components/sections/sect-footer.tsx",
+                                                                    lineNumber: 639,
+                                                                    columnNumber: 21
+                                                                }, this))
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/sections/sect-footer.tsx",
+                                                            lineNumber: 637,
+                                                            columnNumber: 17
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/sections/sect-footer.tsx",
+                                                    lineNumber: 633,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                    href: "mailto:contact@clan-nguyen.ga",
+                                                    style: {
+                                                        display: "inline-flex",
+                                                        alignItems: "center",
+                                                        gap: "8px",
+                                                        fontFamily: "'Cormorant Garamond', serif",
+                                                        fontSize: "0.88rem",
+                                                        color: "rgba(200,169,110,0.65)",
+                                                        textDecoration: "none",
+                                                        transition: "color 0.25s ease"
+                                                    },
+                                                    onMouseEnter: (e)=>e.currentTarget.style.color = "#E8C97E",
+                                                    onMouseLeave: (e)=>e.currentTarget.style.color = "rgba(200,169,110,0.65)",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                                            width: "14",
+                                                            height: "14",
+                                                            viewBox: "0 0 18 18",
+                                                            fill: "none",
+                                                            stroke: "currentColor",
+                                                            strokeWidth: "1.5",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                                    d: "M3 3h12a1 1 0 011 1v10a1 1 0 01-1 1H3a1 1 0 01-1-1V4a1 1 0 011-1z"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/sections/sect-footer.tsx",
+                                                                    lineNumber: 666,
+                                                                    columnNumber: 19
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                                    d: "M2 4l7 6 7-6",
+                                                                    strokeLinecap: "round"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/sections/sect-footer.tsx",
+                                                                    lineNumber: 667,
+                                                                    columnNumber: 19
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/components/sections/sect-footer.tsx",
+                                                            lineNumber: 665,
+                                                            columnNumber: 17
+                                                        }, this),
+                                                        "contact@clan-nguyen.ga"
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/sections/sect-footer.tsx",
+                                                    lineNumber: 650,
+                                                    columnNumber: 15
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/sections/sect-footer.tsx",
+                                            lineNumber: 614,
+                                            columnNumber: 13
+                                        }, this),
+                                        NAV_SECTIONS.map((section, si)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                style: {
+                                                    opacity: colsInView ? 1 : 0,
+                                                    transform: colsInView ? "translateY(0)" : "translateY(24px)",
+                                                    transition: `opacity 0.8s ${0.12 + si * 0.10}s ease, transform 0.8s ${0.12 + si * 0.10}s cubic-bezier(0.34,1.1,0.64,1)`
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "col-title",
+                                                        children: section.titre
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/sections/sect-footer.tsx",
+                                                        lineNumber: 680,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                                        style: {
+                                                            listStyle: "none",
+                                                            margin: 0,
+                                                            padding: 0,
+                                                            display: "flex",
+                                                            flexDirection: "column",
+                                                            gap: "2px"
+                                                        },
+                                                        children: section.liens.map((lien, li)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(FooterLink, {
+                                                                href: lien.href,
+                                                                label: lien.label,
+                                                                delay: 0.15 + si * 0.08 + li * 0.04,
+                                                                inView: colsInView
+                                                            }, lien.href + lien.label, false, {
+                                                                fileName: "[project]/components/sections/sect-footer.tsx",
+                                                                lineNumber: 683,
+                                                                columnNumber: 21
+                                                            }, this))
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/sections/sect-footer.tsx",
+                                                        lineNumber: 681,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, section.titre, true, {
+                                                fileName: "[project]/components/sections/sect-footer.tsx",
+                                                lineNumber: 675,
+                                                columnNumber: 15
+                                            }, this))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/sections/sect-footer.tsx",
+                                    lineNumber: 611,
+                                    columnNumber: 11
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/components/sections/sect-footer.tsx",
+                                lineNumber: 610,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                style: {
+                                    margin: "0 40px"
+                                },
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        maxWidth: "1200px",
+                                        margin: "0 auto"
+                                    },
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "footer-sep"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sections/sect-footer.tsx",
+                                        lineNumber: 701,
+                                        columnNumber: 13
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/sections/sect-footer.tsx",
+                                    lineNumber: 700,
+                                    columnNumber: 11
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/components/sections/sect-footer.tsx",
+                                lineNumber: 699,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "footer-bottom",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "footer-bottom-inner",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            style: {
+                                                fontFamily: "'Cormorant Garamond', serif",
+                                                fontSize: "0.78rem",
+                                                color: "rgba(255,255,255,0.35)",
+                                                margin: 0,
+                                                opacity: bottomInView ? 1 : 0,
+                                                transition: "opacity 0.8s ease"
+                                            },
+                                            children: [
+                                                "© ",
+                                                year,
+                                                " BA NGOMBOUNDA — Clan & Tradition. Tous droits réservés."
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/sections/sect-footer.tsx",
+                                            lineNumber: 710,
+                                            columnNumber: 13
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            style: {
+                                                fontFamily: "'Cormorant Garamond', serif",
+                                                fontSize: "0.80rem",
+                                                fontWeight: 600,
+                                                color: "rgba(255,255,255,0.52)",
+                                                margin: 0,
+                                                opacity: bottomInView ? 1 : 0,
+                                                transition: "opacity 0.8s 0.05s ease",
+                                                whiteSpace: "nowrap"
+                                            },
+                                            children: [
+                                                "Developped by",
+                                                " ",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                    href: "https://ioi-gab-alpha.vercel.app/",
+                                                    target: "_blank",
+                                                    rel: "noreferrer",
+                                                    style: {
+                                                        color: "var(--bn-white)",
+                                                        textDecoration: "none",
+                                                        borderBottom: "1px solid rgba(255,255,255,0.28)",
+                                                        paddingBottom: "1px"
+                                                    },
+                                                    children: "IOI"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/sections/sect-footer.tsx",
+                                                    lineNumber: 732,
+                                                    columnNumber: 15
+                                                }, this),
+                                                " ",
+                                                "— Innovation Ouverture Intelligence"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/sections/sect-footer.tsx",
+                                            lineNumber: 721,
+                                            columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             style: {
                                                 display: "flex",
                                                 alignItems: "center",
-                                                gap: "10px",
-                                                flexWrap: "wrap"
+                                                fontFamily: "'Cormorant Garamond', serif",
+                                                gap: "20px",
+                                                flexWrap: "wrap",
+                                                justifyContent: "center",
+                                                opacity: bottomInView ? 1 : 0,
+                                                transition: "opacity 0.8s 0.15s ease"
                                             },
-                                            children: DEVISE.map((mot, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            children: [
+                                                "Mentions légales",
+                                                "Confidentialité",
+                                                "Accessibilité"
+                                            ].map((lbl, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     style: {
                                                         display: "inline-flex",
                                                         alignItems: "center",
-                                                        gap: "10px"
+                                                        gap: "20px"
                                                     },
                                                     children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                            href: "#",
                                                             style: {
-                                                                fontFamily: "'Playfair Display', serif",
-                                                                fontStyle: "italic",
-                                                                fontSize: "1.05rem",
-                                                                color: DEVISE_COLORS[i],
-                                                                opacity: 0.85
+                                                                fontFamily: "'Cormorant Garamond', serif",
+                                                                fontSize: "0.78rem",
+                                                                color: "rgba(255,255,255,0.28)",
+                                                                textDecoration: "none",
+                                                                transition: "color 0.25s ease",
+                                                                letterSpacing: "0.04em",
+                                                                whiteSpace: "nowrap"
                                                             },
-                                                            children: mot
+                                                            onMouseEnter: (e)=>e.currentTarget.style.color = "rgba(200,169,110,0.70)",
+                                                            onMouseLeave: (e)=>e.currentTarget.style.color = "rgba(255,255,255,0.28)",
+                                                            children: lbl
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/sections/sect-footer.tsx",
-                                                            lineNumber: 443,
-                                                            columnNumber: 21
+                                                            lineNumber: 761,
+                                                            columnNumber: 19
                                                         }, this),
-                                                        i < DEVISE.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        i < 2 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             style: {
-                                                                width: "4px",
-                                                                height: "4px",
+                                                                width: "3px",
+                                                                height: "3px",
                                                                 borderRadius: "50%",
-                                                                background: "rgba(200,169,110,0.35)",
+                                                                background: "rgba(255,255,255,0.15)",
                                                                 display: "inline-block"
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/sections/sect-footer.tsx",
-                                                            lineNumber: 453,
-                                                            columnNumber: 23
+                                                            lineNumber: 778,
+                                                            columnNumber: 21
                                                         }, this)
                                                     ]
-                                                }, mot, true, {
+                                                }, lbl, true, {
                                                     fileName: "[project]/components/sections/sect-footer.tsx",
-                                                    lineNumber: 442,
-                                                    columnNumber: 19
+                                                    lineNumber: 760,
+                                                    columnNumber: 17
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/sect-footer.tsx",
-                                            lineNumber: 440,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/sections/sect-footer.tsx",
-                                    lineNumber: 385,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        width: "1px",
-                                        alignSelf: "stretch",
-                                        background: "linear-gradient(to bottom, transparent, rgba(200,169,110,0.20), transparent)",
-                                        flexShrink: 0,
-                                        display: "none"
-                                    },
-                                    className: "vert-sep"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/sections/sect-footer.tsx",
-                                    lineNumber: 466,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        flex: 1,
-                                        minWidth: "280px",
-                                        maxWidth: "420px",
-                                        opacity: topInView ? 1 : 0,
-                                        transform: topInView ? "translateX(0)" : "translateX(30px)",
-                                        transition: "opacity 0.8s 0.2s ease, transform 0.8s 0.2s cubic-bezier(0.34,1.1,0.64,1)"
-                                    },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            style: {
-                                                fontFamily: "'Cormorant Garamond', serif",
-                                                fontSize: "0.72rem",
-                                                letterSpacing: "0.22em",
-                                                textTransform: "uppercase",
-                                                color: "#C8A96E",
-                                                margin: "0 0 8px 0"
-                                            },
-                                            children: "Restez informés"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/sections/sect-footer.tsx",
-                                            lineNumber: 483,
-                                            columnNumber: 15
+                                            lineNumber: 749,
+                                            columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             style: {
                                                 fontFamily: "'Cormorant Garamond', serif",
-                                                fontSize: "1.02rem",
-                                                color: "rgba(255,255,255,0.50)",
-                                                margin: "0 0 16px 0",
-                                                lineHeight: 1.6
+                                                fontStyle: "italic",
+                                                fontSize: "0.78rem",
+                                                color: "rgba(200,169,110,0.35)",
+                                                margin: 0,
+                                                whiteSpace: "nowrap",
+                                                opacity: bottomInView ? 1 : 0,
+                                                transition: "opacity 0.8s 0.25s ease"
                                             },
-                                            children: "Recevez les actualités du clan directement dans votre boîte mail."
+                                            children: "Fait avec ❤️ pour le clan"
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/sect-footer.tsx",
-                                            lineNumber: 493,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                display: "flex"
-                                            },
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                    type: "email",
-                                                    placeholder: "votre@email.com",
-                                                    className: "nl-input"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/sections/sect-footer.tsx",
-                                                    lineNumber: 503,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                    className: "nl-btn",
-                                                    children: "S'abonner"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/sections/sect-footer.tsx",
-                                                    lineNumber: 508,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/sections/sect-footer.tsx",
-                                            lineNumber: 502,
-                                            columnNumber: 15
+                                            lineNumber: 785,
+                                            columnNumber: 13
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/sect-footer.tsx",
-                                    lineNumber: 475,
-                                    columnNumber: 13
+                                    lineNumber: 709,
+                                    columnNumber: 11
                                 }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/components/sections/sect-footer.tsx",
-                            lineNumber: 382,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/components/sections/sect-footer.tsx",
-                        lineNumber: 381,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            margin: "0 40px"
-                        },
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            style: {
-                                maxWidth: "1200px",
-                                margin: "0 auto"
-                            },
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "footer-sep"
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/sect-footer.tsx",
-                                lineNumber: 518,
-                                columnNumber: 13
+                                lineNumber: 708,
+                                columnNumber: 9
                             }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/components/sections/sect-footer.tsx",
-                            lineNumber: 517,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/components/sections/sect-footer.tsx",
-                        lineNumber: 516,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "footer-cols",
-                        style: {
-                            paddingTop: "48px"
-                        },
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            ref: colsRef,
-                            className: "footer-cols-inner",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        opacity: colsInView ? 1 : 0,
-                                        transform: colsInView ? "translateY(0)" : "translateY(24px)",
-                                        transition: "opacity 0.8s ease, transform 0.8s cubic-bezier(0.34,1.1,0.64,1)"
-                                    },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            style: {
-                                                fontFamily: "'Cormorant Garamond', serif",
-                                                fontSize: "1.02rem",
-                                                lineHeight: 1.85,
-                                                color: "rgba(255,255,255,0.42)",
-                                                margin: "0 0 28px 0",
-                                                maxWidth: "320px"
-                                            },
-                                            children: "Une communauté familiale unie par les valeurs de l'Afrique, dédiée à préserver nos traditions et bâtir un avenir prospère pour nos enfants et petits-enfants."
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/sections/sect-footer.tsx",
-                                            lineNumber: 534,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                marginBottom: "28px"
-                                            },
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "col-title",
-                                                    style: {
-                                                        marginBottom: "14px"
-                                                    },
-                                                    children: "Nous suivre"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/sections/sect-footer.tsx",
-                                                    lineNumber: 549,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        display: "flex",
-                                                        gap: "10px",
-                                                        flexWrap: "wrap"
-                                                    },
-                                                    children: SOCIALS.map((s, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SocialBtn, {
-                                                            item: s,
-                                                            delay: 0.1 + i * 0.07,
-                                                            inView: colsInView
-                                                        }, s.label, false, {
-                                                            fileName: "[project]/components/sections/sect-footer.tsx",
-                                                            lineNumber: 554,
-                                                            columnNumber: 21
-                                                        }, this))
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/sections/sect-footer.tsx",
-                                                    lineNumber: 552,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/sections/sect-footer.tsx",
-                                            lineNumber: 548,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "mailto:contact@clan-nguyen.ga",
-                                            style: {
-                                                display: "inline-flex",
-                                                alignItems: "center",
-                                                gap: "8px",
-                                                fontFamily: "'Cormorant Garamond', serif",
-                                                fontSize: "0.88rem",
-                                                color: "rgba(200,169,110,0.65)",
-                                                textDecoration: "none",
-                                                transition: "color 0.25s ease"
-                                            },
-                                            onMouseEnter: (e)=>e.currentTarget.style.color = "#E8C97E",
-                                            onMouseLeave: (e)=>e.currentTarget.style.color = "rgba(200,169,110,0.65)",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                                    width: "14",
-                                                    height: "14",
-                                                    viewBox: "0 0 18 18",
-                                                    fill: "none",
-                                                    stroke: "currentColor",
-                                                    strokeWidth: "1.5",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                            d: "M3 3h12a1 1 0 011 1v10a1 1 0 01-1 1H3a1 1 0 01-1-1V4a1 1 0 011-1z"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/sections/sect-footer.tsx",
-                                                            lineNumber: 581,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                            d: "M2 4l7 6 7-6",
-                                                            strokeLinecap: "round"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/sections/sect-footer.tsx",
-                                                            lineNumber: 582,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/sections/sect-footer.tsx",
-                                                    lineNumber: 580,
-                                                    columnNumber: 17
-                                                }, this),
-                                                "contact@clan-nguyen.ga"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/sections/sect-footer.tsx",
-                                            lineNumber: 565,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/sections/sect-footer.tsx",
-                                    lineNumber: 529,
-                                    columnNumber: 13
-                                }, this),
-                                NAV_SECTIONS.map((section, si)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        style: {
-                                            opacity: colsInView ? 1 : 0,
-                                            transform: colsInView ? "translateY(0)" : "translateY(24px)",
-                                            transition: `opacity 0.8s ${0.12 + si * 0.10}s ease, transform 0.8s ${0.12 + si * 0.10}s cubic-bezier(0.34,1.1,0.64,1)`
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "col-title",
-                                                children: section.titre
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/sections/sect-footer.tsx",
-                                                lineNumber: 595,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                style: {
-                                                    listStyle: "none",
-                                                    margin: 0,
-                                                    padding: 0,
-                                                    display: "flex",
-                                                    flexDirection: "column",
-                                                    gap: "2px"
-                                                },
-                                                children: section.liens.map((lien, li)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(FooterLink, {
-                                                        href: lien.href,
-                                                        label: lien.label,
-                                                        delay: 0.15 + si * 0.08 + li * 0.04,
-                                                        inView: colsInView
-                                                    }, lien.href + lien.label, false, {
-                                                        fileName: "[project]/components/sections/sect-footer.tsx",
-                                                        lineNumber: 598,
-                                                        columnNumber: 21
-                                                    }, this))
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/sections/sect-footer.tsx",
-                                                lineNumber: 596,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, section.titre, true, {
-                                        fileName: "[project]/components/sections/sect-footer.tsx",
-                                        lineNumber: 590,
-                                        columnNumber: 15
-                                    }, this))
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/components/sections/sect-footer.tsx",
-                            lineNumber: 526,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/components/sections/sect-footer.tsx",
-                        lineNumber: 525,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            margin: "0 40px"
-                        },
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            style: {
-                                maxWidth: "1200px",
-                                margin: "0 auto"
-                            },
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "footer-sep"
-                            }, void 0, false, {
-                                fileName: "[project]/components/sections/sect-footer.tsx",
-                                lineNumber: 616,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/components/sections/sect-footer.tsx",
-                            lineNumber: 615,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/components/sections/sect-footer.tsx",
-                        lineNumber: 614,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "footer-bottom",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "footer-bottom-inner",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    style: {
-                                        fontFamily: "'Cormorant Garamond', serif",
-                                        fontSize: "0.78rem",
-                                        color: "rgba(255,255,255,0.35)",
-                                        margin: 0,
-                                        opacity: bottomInView ? 1 : 0,
-                                        transition: "opacity 0.8s ease"
-                                    },
-                                    children: [
-                                        "© ",
-                                        year,
-                                        " BA NGOMBOUNDA — Clan & Tradition. Tous droits réservés."
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/sections/sect-footer.tsx",
-                                    lineNumber: 625,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        display: "flex",
-                                        alignItems: "center",
-                                        fontFamily: "'Cormorant Garamond', serif",
-                                        gap: "20px",
-                                        flexWrap: "wrap",
-                                        justifyContent: "center",
-                                        opacity: bottomInView ? 1 : 0,
-                                        transition: "opacity 0.8s 0.15s ease"
-                                    },
-                                    children: [
-                                        "Mentions légales",
-                                        "Confidentialité",
-                                        "Accessibilité"
-                                    ].map((lbl, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            style: {
-                                                display: "inline-flex",
-                                                alignItems: "center",
-                                                gap: "20px"
-                                            },
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                    href: "#",
-                                                    style: {
-                                                        fontFamily: "'Cormorant Garamond', serif",
-                                                        fontSize: "0.78rem",
-                                                        color: "rgba(255,255,255,0.28)",
-                                                        textDecoration: "none",
-                                                        transition: "color 0.25s ease",
-                                                        letterSpacing: "0.04em",
-                                                        whiteSpace: "nowrap"
-                                                    },
-                                                    onMouseEnter: (e)=>e.currentTarget.style.color = "rgba(200,169,110,0.70)",
-                                                    onMouseLeave: (e)=>e.currentTarget.style.color = "rgba(255,255,255,0.28)",
-                                                    children: lbl
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/sections/sect-footer.tsx",
-                                                    lineNumber: 649,
-                                                    columnNumber: 19
-                                                }, this),
-                                                i < 2 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    style: {
-                                                        width: "3px",
-                                                        height: "3px",
-                                                        borderRadius: "50%",
-                                                        background: "rgba(255,255,255,0.15)",
-                                                        display: "inline-block"
-                                                    }
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/sections/sect-footer.tsx",
-                                                    lineNumber: 666,
-                                                    columnNumber: 21
-                                                }, this)
-                                            ]
-                                        }, lbl, true, {
-                                            fileName: "[project]/components/sections/sect-footer.tsx",
-                                            lineNumber: 648,
-                                            columnNumber: 17
-                                        }, this))
-                                }, void 0, false, {
-                                    fileName: "[project]/components/sections/sect-footer.tsx",
-                                    lineNumber: 637,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    style: {
-                                        fontFamily: "'Cormorant Garamond', serif",
-                                        fontStyle: "italic",
-                                        fontSize: "0.78rem",
-                                        color: "rgba(200,169,110,0.35)",
-                                        margin: 0,
-                                        whiteSpace: "nowrap",
-                                        opacity: bottomInView ? 1 : 0,
-                                        transition: "opacity 0.8s 0.25s ease"
-                                    },
-                                    children: "Fait avec ❤️ pour le clan"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/sections/sect-footer.tsx",
-                                    lineNumber: 673,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/components/sections/sect-footer.tsx",
-                            lineNumber: 624,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/components/sections/sect-footer.tsx",
-                        lineNumber: 623,
+                        lineNumber: 460,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/sect-footer.tsx",
-                lineNumber: 375,
+                lineNumber: 446,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true);
 }
-_s3(Footer, "6ToiTE4klfpnXW9vuMu83O6qglY=", false, function() {
+_s3(Footer, "ZWe/LWslyO4mgAqVVOKlfQcOxNQ=", false, function() {
     return [
         useInView,
         useInView,

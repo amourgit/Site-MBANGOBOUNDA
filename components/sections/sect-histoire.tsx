@@ -453,7 +453,6 @@ export default function SectionHistoire() {
 
         .histoire-root {
           position: relative;
-          background: #0a0603;
           padding: 120px 24px 100px;
           overflow: hidden;
         }

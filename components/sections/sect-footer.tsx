@@ -87,7 +87,7 @@ const DEVISE_COLORS = ["var(--bn-green)", "var(--bn-white)", "var(--bn-green)"];
 
 // ─── Hook IntersectionObserver ────────────────────────────────────────────────
 function useInView(threshold = 0.1) {
-  const ref = useRef(null);
+  const ref = useRef<HTMLDivElement | null>(null);
   const [inView, setInView] = useState(false);
   useEffect(() => {
     const el = ref.current;
@@ -99,7 +99,7 @@ function useInView(threshold = 0.1) {
     obs.observe(el);
     return () => obs.disconnect();
   }, [threshold]);
-  return [ref, inView];
+  return [ref, inView] as const;
 }
 
 // ─── Lien footer avec hover animé ────────────────────────────────────────────
@@ -188,7 +188,51 @@ export default function Footer() {
   const [topRef,    topInView]    = useInView(0.1);
   const [colsRef,   colsInView]   = useInView(0.1);
   const [bottomRef, bottomInView] = useInView(0.1);
+  const footerRef = useRef<HTMLElement | null>(null);
+  const floatLogoRef = useRef<HTMLDivElement | null>(null);
   const year = new Date().getFullYear();
+
+  useEffect(() => {
+    const footerEl = footerRef.current;
+    const logoEl = floatLogoRef.current;
+    if (!footerEl || !logoEl) return;
+
+    let timer: ReturnType<typeof setTimeout> | null = null;
+
+    const place = () => {
+      const footerRect = footerEl.getBoundingClientRect();
+      const logoRect = logoEl.getBoundingClientRect();
+
+      const maxX = Math.max(0, footerRect.width - logoRect.width);
+      const maxY = Math.max(0, footerRect.height - logoRect.height);
+
+      const x = Math.round(Math.random() * maxX);
+      const y = Math.round(Math.random() * maxY);
+
+      logoEl.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+    };
+
+    const loop = () => {
+      place();
+      const next = 5500 + Math.random() * 3500;
+      timer = setTimeout(loop, next);
+    };
+
+    // Position initiale après layout
+    const raf = requestAnimationFrame(() => {
+      place();
+      loop();
+    });
+
+    const onResize = () => place();
+    window.addEventListener("resize", onResize, { passive: true });
+
+    return () => {
+      cancelAnimationFrame(raf);
+      window.removeEventListener("resize", onResize);
+      if (timer) clearTimeout(timer);
+    };
+  }, []);
 
   return (
     <>
@@ -218,6 +262,33 @@ export default function Footer() {
           mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%);
           -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%);
           pointer-events: none;
+        }
+
+        .footer-float-logo {
+          position: absolute;
+          inset: 0;
+          pointer-events: none;
+          z-index: 0;
+        }
+
+        .footer-float-logo > div {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: min(300px, 55vw);
+          height: min(300px, 55vw);
+          opacity: 0.14;
+          filter: saturate(1.05) contrast(1.06);
+          transition: transform 6.5s cubic-bezier(0.34, 1.1, 0.64, 1);
+          will-change: transform;
+        }
+
+        @media (max-width: 700px) {
+          .footer-float-logo > div {
+            width: 220px;
+            height: 220px;
+            opacity: 0.12;
+          }
         }
 
         /* Halo supérieur */
@@ -372,7 +443,21 @@ export default function Footer() {
         }
       `}</style>
 
-      <footer className="footer-root">
+      <footer ref={footerRef} className="footer-root">
+        <div className="footer-float-logo" aria-hidden="true">
+          <div ref={floatLogoRef}>
+            <Image
+              src="/images/logo-BN-removebg.png"
+              alt=""
+              fill
+              priority={false}
+              sizes="(max-width: 700px) 220px, 300px"
+              style={{ objectFit: "contain" }}
+            />
+          </div>
+        </div>
+
+        <div style={{ position: "relative", zIndex: 1 }}>
         <div className="footer-sep" />
 
         {/* ═══════════════════════════════════════════════════════
@@ -633,6 +718,33 @@ export default function Footer() {
               © {year} BA NGOMBOUNDA — Clan & Tradition. Tous droits réservés.
             </p>
 
+            <p style={{
+              fontFamily: "'Cormorant Garamond', serif",
+              fontSize: "0.80rem",
+              fontWeight: 600,
+              color: "rgba(255,255,255,0.52)",
+              margin: 0,
+              opacity: bottomInView ? 1 : 0,
+              transition: "opacity 0.8s 0.05s ease",
+              whiteSpace: "nowrap",
+            }}>
+              Developped by{" "}
+              <a
+                href="https://ioi-gab-alpha.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  color: "var(--bn-white)",
+                  textDecoration: "none",
+                  borderBottom: "1px solid rgba(255,255,255,0.28)",
+                  paddingBottom: "1px",
+                }}
+              >
+                IOI
+              </a>
+              {" "}— Innovation Ouverture Intelligence
+            </p>
+
             {/* Liens légaux */}
             <div style={{
               display: "flex",
@@ -685,6 +797,7 @@ export default function Footer() {
           </div>
         </div>
 
+        </div>
       </footer>
     </>
   );
