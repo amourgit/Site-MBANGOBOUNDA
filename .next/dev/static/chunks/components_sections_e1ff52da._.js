@@ -9011,6 +9011,7 @@ function Footer() {
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                ref: bottomRef,
                                 className: "footer-bottom",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "footer-bottom-inner",
@@ -9037,13 +9038,16 @@ function Footer() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             style: {
                                                 fontFamily: "'Cormorant Garamond', serif",
-                                                fontSize: "0.80rem",
+                                                fontSize: "0.84rem",
                                                 fontWeight: 600,
-                                                color: "rgba(255,255,255,0.52)",
+                                                color: "rgba(255,255,255,0.68)",
                                                 margin: 0,
                                                 opacity: bottomInView ? 1 : 0,
                                                 transition: "opacity 0.8s 0.05s ease",
-                                                whiteSpace: "nowrap"
+                                                whiteSpace: "normal",
+                                                flex: "1 1 100%",
+                                                textAlign: "center",
+                                                lineHeight: 1.4
                                             },
                                             children: [
                                                 "Developped by",
@@ -9061,7 +9065,7 @@ function Footer() {
                                                     children: "IOI"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/sect-footer.tsx",
-                                                    lineNumber: 732,
+                                                    lineNumber: 735,
                                                     columnNumber: 15
                                                 }, this),
                                                 " ",
@@ -9110,7 +9114,7 @@ function Footer() {
                                                             children: lbl
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/sections/sect-footer.tsx",
-                                                            lineNumber: 761,
+                                                            lineNumber: 764,
                                                             columnNumber: 19
                                                         }, this),
                                                         i < 2 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -9123,18 +9127,18 @@ function Footer() {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/sections/sect-footer.tsx",
-                                                            lineNumber: 778,
+                                                            lineNumber: 781,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, lbl, true, {
                                                     fileName: "[project]/components/sections/sect-footer.tsx",
-                                                    lineNumber: 760,
+                                                    lineNumber: 763,
                                                     columnNumber: 17
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/sect-footer.tsx",
-                                            lineNumber: 749,
+                                            lineNumber: 752,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -9151,7 +9155,7 @@ function Footer() {
                                             children: "Fait avec ❤️ pour le clan"
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/sect-footer.tsx",
-                                            lineNumber: 785,
+                                            lineNumber: 788,
                                             columnNumber: 13
                                         }, this)
                                     ]

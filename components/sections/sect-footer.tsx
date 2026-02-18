@@ -705,7 +705,7 @@ export default function Footer() {
         {/* ═══════════════════════════════════════════════════════
             BAS : Copyright + Mentions légales
         ═══════════════════════════════════════════════════════ */}
-        <div className="footer-bottom">
+        <div ref={bottomRef} className="footer-bottom">
           <div className="footer-bottom-inner">
             <p style={{
               fontFamily: "'Cormorant Garamond', serif",
@@ -720,13 +720,16 @@ export default function Footer() {
 
             <p style={{
               fontFamily: "'Cormorant Garamond', serif",
-              fontSize: "0.80rem",
+              fontSize: "0.84rem",
               fontWeight: 600,
-              color: "rgba(255,255,255,0.52)",
+              color: "rgba(255,255,255,0.68)",
               margin: 0,
               opacity: bottomInView ? 1 : 0,
               transition: "opacity 0.8s 0.05s ease",
-              whiteSpace: "nowrap",
+              whiteSpace: "normal",
+              flex: "1 1 100%",
+              textAlign: "center",
+              lineHeight: 1.4,
             }}>
               Developped by{" "}
               <a
