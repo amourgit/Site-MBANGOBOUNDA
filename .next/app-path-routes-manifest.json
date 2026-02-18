@@ -1,0 +1,12 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/apps/page": "/apps",
+  "/auth/login/page": "/auth/login",
+  "/favicon.ico/route": "/favicon.ico",
+  "/home/page": "/home",
+  "/opengraph-image.png/route": "/opengraph-image.png",
+  "/page": "/",
+  "/test/page": "/test",
+  "/welcome/page": "/welcome"
+}

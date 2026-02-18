@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../app/not-found.tsx"],"sourcesContent":["import { redirect } from \"next/navigation\";\n\nexport default function NotFoundDemo() {\n  redirect(\"/welcome\");\n}\n"],"names":[],"mappings":"uCAAA,EAAA,CAAA,CAAA,OAAA,IAAA,EAAA,EAAA,CAAA,CAAA,OAEe,SAAS,IACtB,CAAA,EAAA,EAAA,QAAA,AAAQ,EAAC,WACX"}
