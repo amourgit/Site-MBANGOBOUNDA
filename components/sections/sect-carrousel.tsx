@@ -16,7 +16,7 @@ type Slide = {
 const slides: Slide[] = [
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1800&q=90",
+    src: "famille/photo15.png",
     tag: "Notre Clan",
     title: "Ensemble,\nnous sommes\nplus forts",
     description:
@@ -24,7 +24,7 @@ const slides: Slide[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1800&q=90",
+    src: "famille/photo16.png",
     tag: "Les Anciens",
     title: "La sagesse\nde nos racines",
     description:
@@ -40,7 +40,7 @@ const slides: Slide[] = [
   },
   {
     type: "image",
-    src: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=1800&q=90",
+    src: "famille/photo14.png",
     tag: "Notre Mission",
     title: "Prendre soin\ndes nôtres",
     description:

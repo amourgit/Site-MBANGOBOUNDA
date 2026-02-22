@@ -17,7 +17,7 @@ const periodes: Periode[] = [
   {
     debut: "1920",
     fin: "1955",
-    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=900&q=85",
+    image: "famille/photoRacine2.png",
     titre: "Les Temps des Fondateurs",
     description:
       "Au cœur de la savane, nos ancêtres posèrent les premières pierres de ce qui allait devenir notre grande famille. Portés par la foi et la terre, ils bâtirent des alliances solides, transmirent des rites sacrés et gravèrent dans la mémoire collective les valeurs qui nous animent encore aujourd'hui.",
@@ -25,7 +25,7 @@ const periodes: Periode[] = [
   {
     debut: "1956",
     fin: "1985",
-    image: "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=900&q=85",
+    image: "famille/photoRacine1.png",
     titre: "L'Ère de l'Expansion",
     description:
       "Les enfants des fondateurs s'élancèrent vers de nouveaux horizons — les villes, les études, les opportunités — sans jamais couper le cordon avec la terre nourricière. Le clan s'agrandit, les unions se tissèrent entre familles alliées, et notre identité prit une nouvelle dimension, plus riche, plus diverse.",
@@ -33,7 +33,7 @@ const periodes: Periode[] = [
   {
     debut: "1986",
     fin: "Aujourd'hui",
-    image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=900&q=85",
+    image: "famille/photo16.png",
     titre: "La Génération du Renouveau",
     description:
       "Forts de notre héritage, nous entrons dans une ère nouvelle. Les jeunes du clan reprennent le flambeau avec fierté : préserver nos traditions tout en embrassant le monde moderne. Solidaires et connectés, nous bâtissons ensemble l'avenir de notre famille pour les générations à venir.",

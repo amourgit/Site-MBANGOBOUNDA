@@ -1,33 +1,217 @@
-[00:00:01.061] Server  LOG     ✓ Ready in 695ms
-[00:00:17.307] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:47.274] Server  LOG     ✓ Compiled in 13.9s
-[00:03:43.445] Server  LOG     ✓ Compiled in 3s
-[00:03:56.309] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:16:22.487] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:16:22.487] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:16:41.045] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:16:41.220] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:16:41.421] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:16:41.564] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:16:48.788] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:16:48.964] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:16:49.069] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:16:49.233] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:16:57.319] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:16:57.599] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:16:57.710] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:16:57.970] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:17:01.656] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:17:01.656] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:17:01.895] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:17:02.301] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:17:02.301] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:17:02.505] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:23:11.039] Server  LOG     ✓ Compiled in 3.3s
-[00:23:34.273] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:23:34.273] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:23:34.428] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
-[00:26:16.655] Server  LOG     ✓ Compiled in 3s
-[00:26:27.003] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:29:02.900] Server  LOG     ✓ Compiled in 3s
-[00:29:15.700] Server  LOG     ✓ Compiled in 2.9s
+[00:00:01.503] Server  LOG     ✓ Ready in 1119ms
+[00:00:06.110] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.798] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/home" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="fr" suppressHydrationWarning={true}>
+                          <body
+                            className="poppins_cfaa2b00-module__b2pcgG__variable lora_42c38618-module__I8yrra__variabl..."
+-                           __processed_e677d5c7-aaa3-4cc1-8e7e-5a5b9ecf4ca6__="true"
+                          >
+                  ...
+
+[00:35:33.454] Server  LOG     ✓ Compiled in 14.2s
+[00:36:14.213] Server  LOG     ✓ Compiled in 2.7s
+[00:36:17.431] Server  LOG     ✓ Compiled in 2.7s
+[00:36:20.602] Server  LOG     ✓ Compiled in 2.5s
+[00:36:41.012] Server  LOG     ✓ Compiled in 2.5s
+[00:36:44.056] Server  LOG     ✓ Compiled in 2.3s
+[00:36:46.180] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:46.628] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/home" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="fr" suppressHydrationWarning={true}>
+                          <body
+                            className="poppins_cfaa2b00-module__b2pcgG__variable lora_42c38618-module__I8yrra__variabl..."
+-                           __processed_ab643158-94a3-4a77-b951-6dc777ff30f9__="true"
+                          >
+                  ...
+
+[00:37:05.536] Server  LOG     ✓ Compiled in 2.3s
+[00:37:10.987] Server  LOG     ✓ Compiled in 2.3s
+[00:37:13.469] Server  LOG     ✓ Compiled in 2.4s
+[00:37:16.871] Server  LOG     ✓ Compiled in 2.7s
+[00:37:19.642] Server  LOG     ✓ Compiled in 2.4s
+[00:37:45.808] Server  LOG     ✓ Compiled in 2.6s
+[00:38:18.018] Server  LOG     ✓ Compiled in 2.6s
+[00:43:35.225] Server  LOG     ✓ Compiled in 2.8s
+[00:43:39.150] Server  LOG     ✓ Compiled in 2.5s
+[00:43:56.908] Server  LOG     ✓ Compiled in 2.7s
+[00:44:00.608] Server  LOG     ✓ Compiled in 2.5s
+[00:44:14.649] Server  LOG     ✓ Compiled in 3s
+[00:44:17.546] Server  LOG     ✓ Compiled in 2.5s
+[00:44:43.187] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:44:44.306] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:44:45.000] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:44:45.589] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:44:49.836] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:44:50.924] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:44:50.924] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:45:22.406] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:45:23.458] Server  LOG     ✓ Compiled in 2.8s
+[00:45:43.463] Server  LOG     ✓ Compiled in 2.6s
+[00:45:45.277] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:45:46.040] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:45:46.893] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:45:47.507] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:46:32.886] Server  LOG     ✓ Compiled in 2.8s
+[00:46:35.815] Server  LOG     ✓ Compiled in 2.3s
+[00:46:39.278] Server  LOG     ✓ Compiled in 2.3s
+[00:46:44.288] Server  LOG     ✓ Compiled in 2.2s
+[00:46:47.348] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:46:47.519] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:46:48.028] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:46:48.028] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:46:48.815] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:46:49.014] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:46:52.611] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:46:56.142] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:46:56.380] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:46:56.380] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:47:03.494] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:47:04.942] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:47:06.674] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:47:07.315] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:47:07.315] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:47:37.138] Server  LOG     ✓ Compiled in 2.4s
+[00:47:40.898] Server  LOG     ✓ Compiled in 2.3s
+[00:48:01.835] Server  LOG     ✓ Compiled in 2.6s
+[00:48:04.725] Server  LOG     ✓ Compiled in 2.2s
+[00:48:10.646] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:48:32.785] Server  LOG     ✓ Compiled in 2.4s
+[00:48:36.382] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:48:36.807] Server  LOG     ✓ Compiled in 2.2s
+[00:48:37.942] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:48:39.252] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:48:40.683] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:48:53.263] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:48:55.276] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:49:09.067] Server  LOG     ✓ Compiled in 2.9s
+[00:49:28.709] Server  LOG     ✓ Compiled in 2.5s
+[00:49:30.724] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:49:31.574] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:49:31.894] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:49:33.007] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:49:33.139] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:49:33.664] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:51:41.818] Server  LOG     ✓ Compiled in 2.5s
+[00:51:52.310] Server  LOG     ✓ Compiled in 2.2s
+[00:51:57.922] Server  LOG     ✓ Compiled in 2.1s
+[00:52:02.640] Server  LOG     ✓ Compiled in 2.2s
+[00:52:08.044] Server  LOG     ✓ Compiled in 2.6s
+[00:52:23.652] Server  LOG     ✓ Compiled in 2.4s
+[00:52:27.471] Server  LOG     ✓ Compiled in 2.2s
+[00:52:36.456] Server  LOG     ✓ Compiled in 2.4s
+[00:52:58.905] Server  LOG     ✓ Compiled in 2.4s
+[00:53:05.284] Server  LOG     ✓ Compiled in 2.2s
+[00:53:09.107] Server  LOG     ✓ Compiled in 2.3s
+[00:53:11.949] Server  LOG     ✓ Compiled in 2.3s
+[00:53:17.339] Server  LOG     ✓ Compiled in 2.5s
+[00:53:24.593] Server  LOG     ✓ Compiled in 2.8s
+[00:53:41.704] Server  LOG     ✓ Compiled in 2.8s
+[00:54:18.544] Server  LOG     ✓ Compiled in 2.9s
+[00:54:21.160] Server  LOG     ✓ Compiled in 2.3s
+[00:54:31.789] Server  LOG     ✓ Compiled in 2.3s
+[00:54:40.684] Server  LOG     ✓ Compiled in 2.5s
+[00:54:50.595] Server  LOG     ✓ Compiled in 2.4s
+[00:54:50.684] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:54:54.280] Server  LOG     ✓ Compiled in 2.6s
+[00:54:59.112] Server  LOG     ✓ Compiled in 2.5s
+[00:55:03.473] Server  LOG     ✓ Compiled in 2.2s
+[00:55:45.278] Server  LOG     ✓ Compiled in 2.8s
+[00:55:49.820] Server  LOG     ✓ Compiled in 2.3s
+[00:55:57.980] Server  LOG     ✓ Compiled in 2.6s
+[00:56:07.849] Server  LOG     ✓ Compiled in 2.8s
+[00:56:13.532] Server  LOG     ✓ Compiled in 2.5s
+[00:56:39.346] Server  LOG     ✓ Compiled in 2.7s
+[00:59:15.956] Server  LOG     ✓ Compiled in 2.7s
+[00:59:22.249] Server  LOG     ✓ Compiled in 2.5s
+[00:59:27.411] Server  LOG     ✓ Compiled in 2.8s
+[00:59:40.541] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:59:41.000] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:59:41.426] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:59:42.162] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:59:43.750] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:59:45.748] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:59:46.211] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:59:46.595] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:59:46.796] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:59:48.826] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[00:59:49.166] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[01:00:20.916] Server  LOG     ✓ Compiled in 2.3s
+[01:00:21.831] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[01:00:22.733] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[01:00:24.190] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[01:00:25.872] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[01:00:27.499] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing borderColor border
+[01:01:02.816] Server  LOG     ✓ Compiled in 2.8s
+[01:02:07.331] Server  LOG     ✓ Compiled in 2.5s
+[01:02:09.812] Server  LOG     ✓ Compiled in 2.4s
+[01:02:13.231] Server  LOG     ✓ Compiled in 2.5s
+[01:02:21.917] Server  LOG     ✓ Compiled in 2.4s
+[01:03:32.166] Server  LOG     ✓ Compiled in 2.9s
+[01:03:36.030] Server  LOG     ✓ Compiled in 2.3s
+[01:03:51.607] Server  LOG     ✓ Compiled in 2.5s
+[01:04:24.078] Server  LOG     ✓ Compiled in 2.8s
+[01:06:25.824] Server  LOG     ✓ Compiled in 3.1s
+[01:08:50.240] Server  LOG     ✓ Compiled in 2.9s
+[01:10:46.583] Server  LOG     ✓ Compiled in 3.2s
+[01:10:51.075] Server  LOG     ✓ Compiled in 2.9s
+[01:10:58.100] Server  LOG     ✓ Compiled in 2.8s
+[01:11:23.554] Server  LOG     ✓ Compiled in 2.9s
+[01:11:27.429] Server  LOG     ✓ Compiled in 2.7s
+[01:12:05.201] Server  LOG     ✓ Compiled in 2.8s

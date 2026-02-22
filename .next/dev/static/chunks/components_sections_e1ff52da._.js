@@ -880,14 +880,14 @@ var _s = __turbopack_context__.k.signature();
 const slides = [
     {
         type: "image",
-        src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1800&q=90",
+        src: "famille/photo15.png",
         tag: "Notre Clan",
         title: "Ensemble,\nnous sommes\nplus forts",
         description: "Depuis des générations, notre famille porte les valeurs de l'unité, du partage et de la dignité. Chaque membre est un maillon précieux de cette chaîne sacrée."
     },
     {
         type: "image",
-        src: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1800&q=90",
+        src: "famille/photo16.png",
         tag: "Les Anciens",
         title: "La sagesse\nde nos racines",
         description: "Nos aînés sont les gardiens de la mémoire. Leur sagesse guide nos pas et éclaire notre chemin vers l'avenir. Nous les honorons à chaque instant."
@@ -901,7 +901,7 @@ const slides = [
     },
     {
         type: "image",
-        src: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=1800&q=90",
+        src: "famille/photo14.png",
         tag: "Notre Mission",
         title: "Prendre soin\ndes nôtres",
         description: "Veuves, personnes âgées, enfants vulnérables — personne n'est laissé pour compte. La solidarité familiale est notre engagement le plus profond."
@@ -1611,21 +1611,21 @@ const periodes = [
     {
         debut: "1920",
         fin: "1955",
-        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=900&q=85",
+        image: "famille/photoRacine2.png",
         titre: "Les Temps des Fondateurs",
         description: "Au cœur de la savane, nos ancêtres posèrent les premières pierres de ce qui allait devenir notre grande famille. Portés par la foi et la terre, ils bâtirent des alliances solides, transmirent des rites sacrés et gravèrent dans la mémoire collective les valeurs qui nous animent encore aujourd'hui."
     },
     {
         debut: "1956",
         fin: "1985",
-        image: "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=900&q=85",
+        image: "famille/photoRacine1.png",
         titre: "L'Ère de l'Expansion",
         description: "Les enfants des fondateurs s'élancèrent vers de nouveaux horizons — les villes, les études, les opportunités — sans jamais couper le cordon avec la terre nourricière. Le clan s'agrandit, les unions se tissèrent entre familles alliées, et notre identité prit une nouvelle dimension, plus riche, plus diverse."
     },
     {
         debut: "1986",
         fin: "Aujourd'hui",
-        image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=900&q=85",
+        image: "famille/photo16.png",
         titre: "La Génération du Renouveau",
         description: "Forts de notre héritage, nous entrons dans une ère nouvelle. Les jeunes du clan reprennent le flambeau avec fierté : préserver nos traditions tout en embrassant le monde moderne. Solidaires et connectés, nous bâtissons ensemble l'avenir de notre famille pour les générations à venir."
     }
@@ -3381,64 +3381,54 @@ var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.sign
 ;
 const PHOTOS = [
     {
-        src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=85",
+        src: "famille/photoReunion2.png",
         alt: "Réunion de famille",
         lieu: "Libreville"
     },
     {
-        src: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&q=85",
+        src: "famille/photo14.png",
         alt: "Fête du clan",
         lieu: "Lambaréné"
     },
     {
-        src: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=85",
+        src: "famille/photo15.png",
         alt: "Les anciens",
         lieu: "Port-Gentil"
     },
     {
-        src: "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=800&q=85",
+        src: "famille/photo2.png",
         alt: "Cérémonie traditionnelle",
         lieu: "Franceville"
     },
     {
-        src: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=800&q=85",
+        src: "famille/photo11.png",
         alt: "Solidarité familiale",
         lieu: "Oyem"
     },
     {
-        src: "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=800&q=85",
+        src: "famille/photo17.png",
         alt: "Les jeunes du clan",
         lieu: "Libreville"
     },
     {
-        src: "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=800&q=85",
+        src: "famille/photo24.png",
         alt: "Mariage traditionnel",
         lieu: "Moanda"
     },
     {
-        src: "https://images.unsplash.com/photo-1519340241574-2cec6aef0c01?w=800&q=85",
+        src: "famille/photo16.png",
         alt: "Remise de diplôme",
         lieu: "Libreville"
     },
     {
-        src: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&q=85",
+        src: "famille/photo1.png",
         alt: "Projet communautaire",
         lieu: "Tchibanga"
     },
     {
-        src: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=85",
+        src: "famille/photo18.png",
         alt: "Aide aux vulnérables",
         lieu: "Port-Gentil"
-    },
-    {
-        src: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&q=85",
-        alt: "Célébration",
-        lieu: "Lambaréné"
-    },
-    {
-        src: "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=800&q=85",
-        alt: "Repas de famille",
-        lieu: "Makokou"
     }
 ];
 // ─── Gabarits de grille (patterns qui se répètent) ───────────────────────────
@@ -3628,7 +3618,7 @@ _s(useInView, "K+dCFMkCcTyPMHOI0MxAWPXS6Js=");
       `
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-gallery.tsx",
-                lineNumber: 141,
+                lineNumber: 139,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3673,7 +3663,7 @@ _s(useInView, "K+dCFMkCcTyPMHOI0MxAWPXS6Js=");
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-gallery.tsx",
-                        lineNumber: 187,
+                        lineNumber: 185,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3686,7 +3676,7 @@ _s(useInView, "K+dCFMkCcTyPMHOI0MxAWPXS6Js=");
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-gallery.tsx",
-                        lineNumber: 202,
+                        lineNumber: 200,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3703,7 +3693,7 @@ _s(useInView, "K+dCFMkCcTyPMHOI0MxAWPXS6Js=");
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-gallery.tsx",
-                        lineNumber: 211,
+                        lineNumber: 209,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3731,7 +3721,7 @@ _s(useInView, "K+dCFMkCcTyPMHOI0MxAWPXS6Js=");
                                 children: cell.photo.alt
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/sect-gallery.tsx",
-                                lineNumber: 232,
+                                lineNumber: 230,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3755,20 +3745,20 @@ _s(useInView, "K+dCFMkCcTyPMHOI0MxAWPXS6Js=");
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/sect-gallery.tsx",
-                                        lineNumber: 253,
+                                        lineNumber: 251,
                                         columnNumber: 13
                                     }, this),
                                     cell.photo.lieu
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/sections/sect-gallery.tsx",
-                                lineNumber: 243,
+                                lineNumber: 241,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/sections/sect-gallery.tsx",
-                        lineNumber: 222,
+                        lineNumber: 220,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3803,7 +3793,7 @@ _s(useInView, "K+dCFMkCcTyPMHOI0MxAWPXS6Js=");
                                     strokeWidth: "1.3"
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/sect-gallery.tsx",
-                                    lineNumber: 277,
+                                    lineNumber: 275,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -3816,24 +3806,24 @@ _s(useInView, "K+dCFMkCcTyPMHOI0MxAWPXS6Js=");
                                     strokeLinecap: "round"
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/sect-gallery.tsx",
-                                    lineNumber: 278,
+                                    lineNumber: 276,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sections/sect-gallery.tsx",
-                            lineNumber: 276,
+                            lineNumber: 274,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-gallery.tsx",
-                        lineNumber: 259,
+                        lineNumber: 257,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/sect-gallery.tsx",
-                lineNumber: 150,
+                lineNumber: 148,
                 columnNumber: 7
             }, this)
         ]
@@ -3859,12 +3849,12 @@ _c = PhotoCard;
                 globalDelay: groupIndex * 0.15 + i * 0.07
             }, i, false, {
                 fileName: "[project]/components/sections/sect-gallery.tsx",
-                lineNumber: 299,
+                lineNumber: 297,
                 columnNumber: 9
             }, this))
     }, void 0, false, {
         fileName: "[project]/components/sections/sect-gallery.tsx",
-        lineNumber: 289,
+        lineNumber: 287,
         columnNumber: 5
     }, this);
 }
@@ -3905,7 +3895,7 @@ _c1 = PatternGroup;
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-gallery.tsx",
-                        lineNumber: 335,
+                        lineNumber: 333,
                         columnNumber: 9
                     }, this),
                     "Nos Mémoires",
@@ -3918,13 +3908,13 @@ _c1 = PatternGroup;
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-gallery.tsx",
-                        lineNumber: 337,
+                        lineNumber: 335,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/sect-gallery.tsx",
-                lineNumber: 323,
+                lineNumber: 321,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -3940,7 +3930,7 @@ _c1 = PatternGroup;
                     "Les instants qui",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                         fileName: "[project]/components/sections/sect-gallery.tsx",
-                        lineNumber: 348,
+                        lineNumber: 346,
                         columnNumber: 25
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
@@ -3951,13 +3941,13 @@ _c1 = PatternGroup;
                         children: "nous racontent"
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-gallery.tsx",
-                        lineNumber: 349,
+                        lineNumber: 347,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/sect-gallery.tsx",
-                lineNumber: 340,
+                lineNumber: 338,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3972,13 +3962,13 @@ _c1 = PatternGroup;
                 children: "Chaque photo est une page de notre histoire collective. Des sourires, des larmes, des fêtes — la vie du clan capturée pour l'éternité."
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-gallery.tsx",
-                lineNumber: 352,
+                lineNumber: 350,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/sections/sect-gallery.tsx",
-        lineNumber: 313,
+        lineNumber: 311,
         columnNumber: 5
     }, this);
 }
@@ -4038,7 +4028,7 @@ _c2 = SectionHeader;
                     }
                 }, void 0, false, {
                     fileName: "[project]/components/sections/sect-gallery.tsx",
-                    lineNumber: 407,
+                    lineNumber: 405,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4049,7 +4039,7 @@ _c2 = SectionHeader;
                     children: "Voir tous nos albums"
                 }, void 0, false, {
                     fileName: "[project]/components/sections/sect-gallery.tsx",
-                    lineNumber: 416,
+                    lineNumber: 414,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4062,18 +4052,18 @@ _c2 = SectionHeader;
                     children: "→"
                 }, void 0, false, {
                     fileName: "[project]/components/sections/sect-gallery.tsx",
-                    lineNumber: 417,
+                    lineNumber: 415,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/sections/sect-gallery.tsx",
-            lineNumber: 383,
+            lineNumber: 381,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/sections/sect-gallery.tsx",
-        lineNumber: 372,
+        lineNumber: 370,
         columnNumber: 5
     }, this);
 }
@@ -4159,7 +4149,7 @@ function SectionGalerie() {
       `
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-gallery.tsx",
-                lineNumber: 442,
+                lineNumber: 440,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -4169,7 +4159,7 @@ function SectionGalerie() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionHeader, {}, void 0, false, {
                             fileName: "[project]/components/sections/sect-gallery.tsx",
-                            lineNumber: 496,
+                            lineNumber: 494,
                             columnNumber: 11
                         }, this),
                         isMobile ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4196,7 +4186,7 @@ function SectionGalerie() {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/sect-gallery.tsx",
-                                            lineNumber: 511,
+                                            lineNumber: 509,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4207,7 +4197,7 @@ function SectionGalerie() {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/sect-gallery.tsx",
-                                            lineNumber: 523,
+                                            lineNumber: 521,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4232,7 +4222,7 @@ function SectionGalerie() {
                                                     children: p.alt
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/sect-gallery.tsx",
-                                                    lineNumber: 540,
+                                                    lineNumber: 538,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4256,31 +4246,31 @@ function SectionGalerie() {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/sections/sect-gallery.tsx",
-                                                            lineNumber: 565,
+                                                            lineNumber: 563,
                                                             columnNumber: 23
                                                         }, this),
                                                         p.lieu
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/sections/sect-gallery.tsx",
-                                                    lineNumber: 553,
+                                                    lineNumber: 551,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/sections/sect-gallery.tsx",
-                                            lineNumber: 531,
+                                            lineNumber: 529,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, p.src + i, true, {
                                     fileName: "[project]/components/sections/sect-gallery.tsx",
-                                    lineNumber: 501,
+                                    lineNumber: 499,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/sections/sect-gallery.tsx",
-                            lineNumber: 499,
+                            lineNumber: 497,
                             columnNumber: 13
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "galerie-groups",
@@ -4289,28 +4279,28 @@ function SectionGalerie() {
                                     groupIndex: gi
                                 }, gi, false, {
                                     fileName: "[project]/components/sections/sect-gallery.tsx",
-                                    lineNumber: 582,
+                                    lineNumber: 580,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/sections/sect-gallery.tsx",
-                            lineNumber: 580,
+                            lineNumber: 578,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(CtaGalerie, {}, void 0, false, {
                             fileName: "[project]/components/sections/sect-gallery.tsx",
-                            lineNumber: 587,
+                            lineNumber: 585,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/sections/sect-gallery.tsx",
-                    lineNumber: 495,
+                    lineNumber: 493,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-gallery.tsx",
-                lineNumber: 494,
+                lineNumber: 492,
                 columnNumber: 7
             }, this)
         ]
@@ -4346,46 +4336,46 @@ var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.sign
 const MEMBRES = [
     {
         id: 1,
-        nom: "Jean-Baptiste Nguyen",
-        role: "Chef de Famille",
-        profession: "Magistrat",
-        photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=85",
+        nom: "YOUKAT Blanche",
+        role: "Tante du Gaz",
+        profession: "Aucun",
+        photo: "famille/photo1.png",
         ville: "Libreville",
         bio: "Patriarche du clan, Jean-Baptiste veille sur l'unité de la famille depuis plus de 30 ans avec sagesse et autorité bienveillante."
     },
     {
         id: 2,
-        nom: "Marie-Claire Obame",
-        role: "Gardienne des Traditions",
-        profession: "Ethnologue",
-        photo: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&q=85",
+        nom: "YOUKAT Lucie",
+        role: "Mere",
+        profession: "Entrepreneur",
+        photo: "famille/photo22.png",
         ville: "Libreville",
         bio: "Dépositaire de la mémoire collective, elle documente nos rites et s'assure que nos enfants grandissent enracinés dans leur culture."
     },
     {
         id: 3,
-        nom: "Pierre Mba Nguyen",
-        role: "Trésorier",
+        nom: "YOUKAT Brejnev",
+        role: "Frere",
         profession: "Expert-Comptable",
-        photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=85",
+        photo: "famille/photo2.png",
         ville: "Port-Gentil",
         bio: "Rigueur et transparence. Pierre gère les finances du clan avec intégrité, garantissant la bonne santé de nos projets communs."
     },
     {
         id: 4,
-        nom: "Élodie Mintsa",
-        role: "Responsable Solidarité",
-        profession: "Médecin",
-        photo: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400&q=85",
+        nom: "Arald MULDINARD",
+        role: "Pere",
+        profession: "Retraité",
+        photo: "famille/photo13.png",
         ville: "Franceville",
         bio: "Au service des plus vulnérables, Élodie coordonne l'aide aux veuves, personnes âgées et enfants en difficulté au sein du clan."
     },
     {
         id: 5,
-        nom: "Samuel Ondo",
-        role: "Responsable Projets",
-        profession: "Ingénieur Civil",
-        photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=85",
+        nom: "Samuel NZILA",
+        role: "Frere",
+        profession: "Ingénieur Reseau Informatique",
+        photo: "famille/photo24.png",
         ville: "Oyem",
         bio: "Bâtisseur visionnaire, Samuel pilote les projets immobiliers et fonciers qui constituent notre patrimoine familial."
     },
@@ -4394,7 +4384,7 @@ const MEMBRES = [
         nom: "Christelle Ella",
         role: "Secrétaire Générale",
         profession: "Juriste",
-        photo: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=85",
+        photo: "famille/photo15.png",
         ville: "Libreville",
         bio: "Organisée et rigoureuse, Christelle veille au bon fonctionnement administratif et juridique de la communauté familiale."
     },
@@ -4403,7 +4393,7 @@ const MEMBRES = [
         nom: "Hervé Nzamba",
         role: "Porte-Parole",
         profession: "Journaliste",
-        photo: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&q=85",
+        photo: "famille/photo16.png",
         ville: "Lambaréné",
         bio: "Voix du clan, Hervé assure la communication interne et externe, et préserve l'image de notre famille auprès du monde."
     },
@@ -4412,7 +4402,7 @@ const MEMBRES = [
         nom: "Nadège Bouanga",
         role: "Responsable Jeunesse",
         profession: "Enseignante",
-        photo: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&q=85",
+        photo: "famille/photo17.png",
         ville: "Moanda",
         bio: "Passionnée d'éducation, Nadège encadre les jeunes membres du clan et les prépare à prendre la relève avec fierté."
     },
@@ -4421,36 +4411,9 @@ const MEMBRES = [
         nom: "Aurélien Nkoghe",
         role: "Conseiller Économique",
         profession: "Entrepreneur",
-        photo: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&q=85",
+        photo: "famille/photo18.png",
         ville: "Libreville",
         bio: "Entrepreneur accompli, Aurélien guide les porteurs de projets et connecte le clan aux opportunités économiques du pays."
-    },
-    {
-        id: 10,
-        nom: "Rosalie Engonga",
-        role: "Responsable Santé",
-        profession: "Infirmière en Chef",
-        photo: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&q=85",
-        ville: "Tchibanga",
-        bio: "Rosalie organise les caravanes médicales et s'assure que chaque membre du clan bénéficie des soins dont il a besoin."
-    },
-    {
-        id: 11,
-        nom: "Patrick Zué",
-        role: "Responsable Spirituel",
-        profession: "Pasteur",
-        photo: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400&q=85",
-        ville: "Makokou",
-        bio: "Guide spirituel du clan, Patrick accompagne les familles dans les moments de joie comme dans les épreuves de la vie."
-    },
-    {
-        id: 12,
-        nom: "Viviane Assoumou",
-        role: "Responsable Culture",
-        profession: "Artiste & Chorégraphe",
-        photo: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&q=85",
-        ville: "Port-Gentil",
-        bio: "Âme créatrice du clan, Viviane perpétue nos danses, chants et rites traditionnels en les transmettant aux générations futures."
     }
 ];
 // ─── Seed pseudo-random ───────────────────────────────────────────────────────
@@ -4563,7 +4526,7 @@ function MembreGridCard({ membre, isSelected, onSelect }) {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-membre.tsx",
-                        lineNumber: 120,
+                        lineNumber: 117,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4574,7 +4537,7 @@ function MembreGridCard({ membre, isSelected, onSelect }) {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-membre.tsx",
-                        lineNumber: 135,
+                        lineNumber: 132,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4598,7 +4561,7 @@ function MembreGridCard({ membre, isSelected, onSelect }) {
                                 children: membre.role
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/sect-membre.tsx",
-                                lineNumber: 141,
+                                lineNumber: 138,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4613,7 +4576,7 @@ function MembreGridCard({ membre, isSelected, onSelect }) {
                                 children: membre.nom
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/sect-membre.tsx",
-                                lineNumber: 151,
+                                lineNumber: 148,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4626,19 +4589,19 @@ function MembreGridCard({ membre, isSelected, onSelect }) {
                                 children: membre.profession
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/sect-membre.tsx",
-                                lineNumber: 161,
+                                lineNumber: 158,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/sections/sect-membre.tsx",
-                        lineNumber: 140,
+                        lineNumber: 137,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/sect-membre.tsx",
-                lineNumber: 119,
+                lineNumber: 116,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4659,18 +4622,18 @@ function MembreGridCard({ membre, isSelected, onSelect }) {
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/sections/sect-membre.tsx",
-                    lineNumber: 173,
+                    lineNumber: 170,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-membre.tsx",
-                lineNumber: 172,
+                lineNumber: 169,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/sections/sect-membre.tsx",
-        lineNumber: 101,
+        lineNumber: 98,
         columnNumber: 5
     }, this);
 }
@@ -4716,7 +4679,7 @@ function MembreCard({ membre, pos, index, isSelected, onSelect, anySelected }) {
                 }
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-membre.tsx",
-                lineNumber: 236,
+                lineNumber: 233,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4736,7 +4699,7 @@ function MembreCard({ membre, pos, index, isSelected, onSelect, anySelected }) {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-membre.tsx",
-                        lineNumber: 258,
+                        lineNumber: 255,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4760,7 +4723,7 @@ function MembreCard({ membre, pos, index, isSelected, onSelect, anySelected }) {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/sect-membre.tsx",
-                                lineNumber: 262,
+                                lineNumber: 259,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4771,7 +4734,7 @@ function MembreCard({ membre, pos, index, isSelected, onSelect, anySelected }) {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/sect-membre.tsx",
-                                lineNumber: 275,
+                                lineNumber: 272,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4799,18 +4762,18 @@ function MembreCard({ membre, pos, index, isSelected, onSelect, anySelected }) {
                                     children: membre.role
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/sect-membre.tsx",
-                                    lineNumber: 288,
+                                    lineNumber: 285,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/sect-membre.tsx",
-                                lineNumber: 281,
+                                lineNumber: 278,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/sections/sect-membre.tsx",
-                        lineNumber: 261,
+                        lineNumber: 258,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4830,7 +4793,7 @@ function MembreCard({ membre, pos, index, isSelected, onSelect, anySelected }) {
                                 children: membre.nom
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/sect-membre.tsx",
-                                lineNumber: 308,
+                                lineNumber: 305,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4844,7 +4807,7 @@ function MembreCard({ membre, pos, index, isSelected, onSelect, anySelected }) {
                                 children: membre.profession
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/sect-membre.tsx",
-                                lineNumber: 318,
+                                lineNumber: 315,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4867,24 +4830,24 @@ function MembreCard({ membre, pos, index, isSelected, onSelect, anySelected }) {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/sect-membre.tsx",
-                                    lineNumber: 332,
+                                    lineNumber: 329,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/sect-membre.tsx",
-                                lineNumber: 327,
+                                lineNumber: 324,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/sections/sect-membre.tsx",
-                        lineNumber: 307,
+                        lineNumber: 304,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/sect-membre.tsx",
-                lineNumber: 249,
+                lineNumber: 246,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4904,13 +4867,13 @@ function MembreCard({ membre, pos, index, isSelected, onSelect, anySelected }) {
                 }
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-membre.tsx",
-                lineNumber: 340,
+                lineNumber: 337,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/sections/sect-membre.tsx",
-        lineNumber: 212,
+        lineNumber: 209,
         columnNumber: 5
     }, this);
 }
@@ -4945,7 +4908,7 @@ function DetailPanel({ membre, onClose, isMobile }) {
                 }
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-membre.tsx",
-                lineNumber: 369,
+                lineNumber: 366,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4974,7 +4937,7 @@ function DetailPanel({ membre, onClose, isMobile }) {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-membre.tsx",
-                        lineNumber: 401,
+                        lineNumber: 398,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -5002,7 +4965,7 @@ function DetailPanel({ membre, onClose, isMobile }) {
                         children: "✕"
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-membre.tsx",
-                        lineNumber: 404,
+                        lineNumber: 401,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5025,7 +4988,7 @@ function DetailPanel({ membre, onClose, isMobile }) {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/sect-membre.tsx",
-                                lineNumber: 432,
+                                lineNumber: 429,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5036,7 +4999,7 @@ function DetailPanel({ membre, onClose, isMobile }) {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/sect-membre.tsx",
-                                lineNumber: 444,
+                                lineNumber: 441,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5059,7 +5022,7 @@ function DetailPanel({ membre, onClose, isMobile }) {
                                         children: membre.role
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/sect-membre.tsx",
-                                        lineNumber: 456,
+                                        lineNumber: 453,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -5075,19 +5038,19 @@ function DetailPanel({ membre, onClose, isMobile }) {
                                         children: membre.nom
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/sect-membre.tsx",
-                                        lineNumber: 466,
+                                        lineNumber: 463,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/sections/sect-membre.tsx",
-                                lineNumber: 450,
+                                lineNumber: 447,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/sections/sect-membre.tsx",
-                        lineNumber: 431,
+                        lineNumber: 428,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5117,7 +5080,7 @@ function DetailPanel({ membre, onClose, isMobile }) {
                                         children: membre.profession
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/sect-membre.tsx",
-                                        lineNumber: 484,
+                                        lineNumber: 481,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5136,13 +5099,13 @@ function DetailPanel({ membre, onClose, isMobile }) {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/sections/sect-membre.tsx",
-                                        lineNumber: 496,
+                                        lineNumber: 493,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/sections/sect-membre.tsx",
-                                lineNumber: 483,
+                                lineNumber: 480,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5155,7 +5118,7 @@ function DetailPanel({ membre, onClose, isMobile }) {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/sect-membre.tsx",
-                                lineNumber: 510,
+                                lineNumber: 507,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5169,19 +5132,19 @@ function DetailPanel({ membre, onClose, isMobile }) {
                                 children: membre.bio
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/sect-membre.tsx",
-                                lineNumber: 513,
+                                lineNumber: 510,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/sections/sect-membre.tsx",
-                        lineNumber: 481,
+                        lineNumber: 478,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/sect-membre.tsx",
-                lineNumber: 381,
+                lineNumber: 378,
                 columnNumber: 7
             }, this)
         ]
@@ -5226,7 +5189,7 @@ function SectionHeader() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-membre.tsx",
-                        lineNumber: 551,
+                        lineNumber: 548,
                         columnNumber: 9
                     }, this),
                     "Le Clan",
@@ -5239,13 +5202,13 @@ function SectionHeader() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-membre.tsx",
-                        lineNumber: 553,
+                        lineNumber: 550,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/sect-membre.tsx",
-                lineNumber: 539,
+                lineNumber: 536,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -5261,7 +5224,7 @@ function SectionHeader() {
                     "Ceux qui font",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                         fileName: "[project]/components/sections/sect-membre.tsx",
-                        lineNumber: 564,
+                        lineNumber: 561,
                         columnNumber: 22
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
@@ -5272,13 +5235,13 @@ function SectionHeader() {
                         children: "vivre notre famille"
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-membre.tsx",
-                        lineNumber: 565,
+                        lineNumber: 562,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/sect-membre.tsx",
-                lineNumber: 556,
+                lineNumber: 553,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5293,13 +5256,13 @@ function SectionHeader() {
                 children: "Cliquez sur une carte pour découvrir chaque membre et le rôle qu'il joue au cœur de notre clan."
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-membre.tsx",
-                lineNumber: 568,
+                lineNumber: 565,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/sections/sect-membre.tsx",
-        lineNumber: 532,
+        lineNumber: 529,
         columnNumber: 5
     }, this);
 }
@@ -5444,7 +5407,7 @@ function SectionMembres() {
       `
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-membre.tsx",
-                lineNumber: 609,
+                lineNumber: 606,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5454,12 +5417,12 @@ function SectionMembres() {
                         className: "membres-header",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionHeader, {}, void 0, false, {
                             fileName: "[project]/components/sections/sect-membre.tsx",
-                            lineNumber: 704,
+                            lineNumber: 701,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-membre.tsx",
-                        lineNumber: 703,
+                        lineNumber: 700,
                         columnNumber: 9
                     }, this),
                     isMobile ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5470,12 +5433,12 @@ function SectionMembres() {
                                 onSelect: setSelected
                             }, membre.id, false, {
                                 fileName: "[project]/components/sections/sect-membre.tsx",
-                                lineNumber: 710,
+                                lineNumber: 707,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-membre.tsx",
-                        lineNumber: 708,
+                        lineNumber: 705,
                         columnNumber: 11
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "table-surface",
@@ -5491,12 +5454,12 @@ function SectionMembres() {
                                 onSelect: setSelected
                             }, membre.id, false, {
                                 fileName: "[project]/components/sections/sect-membre.tsx",
-                                lineNumber: 721,
+                                lineNumber: 718,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-membre.tsx",
-                        lineNumber: 719,
+                        lineNumber: 716,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5545,7 +5508,7 @@ function SectionMembres() {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/sect-membre.tsx",
-                                    lineNumber: 767,
+                                    lineNumber: 764,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5556,7 +5519,7 @@ function SectionMembres() {
                                     children: "Voir tous les membres"
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/sect-membre.tsx",
-                                    lineNumber: 776,
+                                    lineNumber: 773,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5567,24 +5530,24 @@ function SectionMembres() {
                                     children: "→"
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/sect-membre.tsx",
-                                    lineNumber: 777,
+                                    lineNumber: 774,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sections/sect-membre.tsx",
-                            lineNumber: 736,
+                            lineNumber: 733,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-membre.tsx",
-                        lineNumber: 735,
+                        lineNumber: 732,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/sect-membre.tsx",
-                lineNumber: 701,
+                lineNumber: 698,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DetailPanel, {
@@ -5593,7 +5556,7 @@ function SectionMembres() {
                 isMobile: isMobile
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-membre.tsx",
-                lineNumber: 783,
+                lineNumber: 780,
                 columnNumber: 7
             }, this)
         ]
@@ -5630,18 +5593,18 @@ const EVENEMENTS = [
     {
         id: 1,
         type: "image",
-        src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&q=85",
+        src: "famille/photo14.png",
         categorie: "Mariage",
-        titre: "Mariage de Rodrigue & Cynthia",
+        titre: "Mariage de ... & ...",
         date: "14 Février 2025",
-        lieu: "Libreville",
+        lieu: "Congo",
         description: "Une union bénie sous le signe de l'amour et des traditions ancestrales. Le clan s'est rassemblé en force pour célébrer cette journée inoubliable.",
         taille: "grande"
     },
     {
         id: 2,
         type: "video",
-        src: "https://videos.pexels.com/video-files/3045163/3045163-uhd_2560_1440_25fps.mp4",
+        src: "famille/event2.mp4",
         categorie: "Fête Traditionnelle",
         titre: "Grande Fête du Clan 2024",
         date: "31 Décembre 2024",
@@ -5652,18 +5615,18 @@ const EVENEMENTS = [
     {
         id: 3,
         type: "image",
-        src: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=85",
+        src: "famille/photo20.png",
         categorie: "Remise de Prix",
         titre: "Cérémonie des Lauréats",
         date: "22 Juin 2024",
-        lieu: "Franceville",
+        lieu: "Libreville",
         description: "Honorer nos diplômés et les encourager sur la voie de l'excellence.",
         taille: "moyenne"
     },
     {
         id: 4,
         type: "image",
-        src: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=85",
+        src: "famille/photo21.png",
         categorie: "Solidarité",
         titre: "Caravane Médicale",
         date: "10 Mars 2025",
@@ -5674,7 +5637,7 @@ const EVENEMENTS = [
     {
         id: 5,
         type: "video",
-        src: "https://videos.pexels.com/video-files/4763824/4763824-uhd_2560_1440_24fps.mp4",
+        src: "famille/event1.mp4",
         categorie: "Projet",
         titre: "Pose de Première Pierre",
         date: "5 Janvier 2025",
@@ -5703,17 +5666,6 @@ const EVENEMENTS = [
         lieu: "Libreville",
         description: "Bilan de l'année, élection des représentants et définition des grandes orientations pour 2025.",
         taille: "moyenne"
-    },
-    {
-        id: 8,
-        type: "video",
-        src: "https://videos.pexels.com/video-files/3044706/3044706-uhd_2560_1440_25fps.mp4",
-        categorie: "Baptême",
-        titre: "Baptême des Petits du Clan",
-        date: "20 Avril 2025",
-        lieu: "Tchibanga",
-        description: "Accueil des nouveaux membres dans la grande famille. Une journée de joie et de bénédictions.",
-        taille: "petite"
     }
 ];
 // Couleurs par catégorie
@@ -5829,7 +5781,7 @@ function EventMedia({ evt, hovered }) {
                     }
                 }, void 0, false, {
                     fileName: "[project]/components/sections/sect-events.tsx",
-                    lineNumber: 180,
+                    lineNumber: 169,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5865,7 +5817,7 @@ function EventMedia({ evt, hovered }) {
                                 rx: "1"
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/sect-events.tsx",
-                                lineNumber: 217,
+                                lineNumber: 206,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
@@ -5876,13 +5828,13 @@ function EventMedia({ evt, hovered }) {
                                 rx: "1"
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/sect-events.tsx",
-                                lineNumber: 218,
+                                lineNumber: 207,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/sections/sect-events.tsx",
-                        lineNumber: 216,
+                        lineNumber: 205,
                         columnNumber: 13
                     }, this) : // Play icon
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -5894,17 +5846,17 @@ function EventMedia({ evt, hovered }) {
                             d: "M0 0 L10 6 L0 12 Z"
                         }, void 0, false, {
                             fileName: "[project]/components/sections/sect-events.tsx",
-                            lineNumber: 223,
+                            lineNumber: 212,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-events.tsx",
-                        lineNumber: 222,
+                        lineNumber: 211,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/sections/sect-events.tsx",
-                    lineNumber: 197,
+                    lineNumber: 186,
                     columnNumber: 9
                 }, this)
             ]
@@ -5925,7 +5877,7 @@ function EventMedia({ evt, hovered }) {
         }
     }, void 0, false, {
         fileName: "[project]/components/sections/sect-events.tsx",
-        lineNumber: 232,
+        lineNumber: 221,
         columnNumber: 5
     }, this);
 }
@@ -5966,7 +5918,7 @@ function EventCard({ evt, index, spanCols = 1, spanRows = 1 }) {
                 hovered: hovered
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-events.tsx",
-                lineNumber: 295,
+                lineNumber: 284,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5987,7 +5939,7 @@ function EventCard({ evt, index, spanCols = 1, spanRows = 1 }) {
                 }
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-events.tsx",
-                lineNumber: 298,
+                lineNumber: 287,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6003,7 +5955,7 @@ function EventCard({ evt, index, spanCols = 1, spanRows = 1 }) {
                 }
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-events.tsx",
-                lineNumber: 315,
+                lineNumber: 304,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6038,7 +5990,7 @@ function EventCard({ evt, index, spanCols = 1, spanRows = 1 }) {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/sect-events.tsx",
-                                lineNumber: 344,
+                                lineNumber: 333,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6053,13 +6005,13 @@ function EventCard({ evt, index, spanCols = 1, spanRows = 1 }) {
                                 children: evt.categorie
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/sect-events.tsx",
-                                lineNumber: 352,
+                                lineNumber: 341,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/sections/sect-events.tsx",
-                        lineNumber: 338,
+                        lineNumber: 327,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -6075,7 +6027,7 @@ function EventCard({ evt, index, spanCols = 1, spanRows = 1 }) {
                         children: evt.titre
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-events.tsx",
-                        lineNumber: 365,
+                        lineNumber: 354,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6102,7 +6054,7 @@ function EventCard({ evt, index, spanCols = 1, spanRows = 1 }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/sections/sect-events.tsx",
-                                lineNumber: 385,
+                                lineNumber: 374,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6115,7 +6067,7 @@ function EventCard({ evt, index, spanCols = 1, spanRows = 1 }) {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/sect-events.tsx",
-                                lineNumber: 395,
+                                lineNumber: 384,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6130,13 +6082,13 @@ function EventCard({ evt, index, spanCols = 1, spanRows = 1 }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/sections/sect-events.tsx",
-                                lineNumber: 396,
+                                lineNumber: 385,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/sections/sect-events.tsx",
-                        lineNumber: 378,
+                        lineNumber: 367,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6158,24 +6110,24 @@ function EventCard({ evt, index, spanCols = 1, spanRows = 1 }) {
                             children: evt.description
                         }, void 0, false, {
                             fileName: "[project]/components/sections/sect-events.tsx",
-                            lineNumber: 411,
+                            lineNumber: 400,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-events.tsx",
-                        lineNumber: 406,
+                        lineNumber: 395,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/sect-events.tsx",
-                lineNumber: 327,
+                lineNumber: 316,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/sections/sect-events.tsx",
-        lineNumber: 267,
+        lineNumber: 256,
         columnNumber: 5
     }, this);
 }
@@ -6243,7 +6195,7 @@ function SectionHeader() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-events.tsx",
-                        lineNumber: 461,
+                        lineNumber: 450,
                         columnNumber: 9
                     }, this),
                     "La Vie du Clan",
@@ -6256,13 +6208,13 @@ function SectionHeader() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-events.tsx",
-                        lineNumber: 463,
+                        lineNumber: 452,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/sect-events.tsx",
-                lineNumber: 449,
+                lineNumber: 438,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -6278,7 +6230,7 @@ function SectionHeader() {
                     "Nos moments",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                         fileName: "[project]/components/sections/sect-events.tsx",
-                        lineNumber: 474,
+                        lineNumber: 463,
                         columnNumber: 20
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
@@ -6289,13 +6241,13 @@ function SectionHeader() {
                         children: "qui nous rassemblent"
                     }, void 0, false, {
                         fileName: "[project]/components/sections/sect-events.tsx",
-                        lineNumber: 475,
+                        lineNumber: 464,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/sect-events.tsx",
-                lineNumber: 466,
+                lineNumber: 455,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6310,13 +6262,13 @@ function SectionHeader() {
                 children: "Mariages, fêtes, cérémonies, projets… la vie de notre clan se raconte à travers ces instants précieux que nous vivons ensemble."
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-events.tsx",
-                lineNumber: 478,
+                lineNumber: 467,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/sections/sect-events.tsx",
-        lineNumber: 442,
+        lineNumber: 431,
         columnNumber: 5
     }, this);
 }
@@ -6377,7 +6329,7 @@ function CtaEvenements() {
                     }
                 }, void 0, false, {
                     fileName: "[project]/components/sections/sect-events.tsx",
-                    lineNumber: 530,
+                    lineNumber: 519,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6388,7 +6340,7 @@ function CtaEvenements() {
                     children: "Voir tous nos événements"
                 }, void 0, false, {
                     fileName: "[project]/components/sections/sect-events.tsx",
-                    lineNumber: 538,
+                    lineNumber: 527,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6401,18 +6353,18 @@ function CtaEvenements() {
                     children: "→"
                 }, void 0, false, {
                     fileName: "[project]/components/sections/sect-events.tsx",
-                    lineNumber: 539,
+                    lineNumber: 528,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/sections/sect-events.tsx",
-            lineNumber: 506,
+            lineNumber: 495,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/sections/sect-events.tsx",
-        lineNumber: 498,
+        lineNumber: 487,
         columnNumber: 5
     }, this);
 }
@@ -6500,7 +6452,7 @@ function SectionEvenements() {
       `
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-events.tsx",
-                lineNumber: 555,
+                lineNumber: 544,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -6510,7 +6462,7 @@ function SectionEvenements() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionHeader, {}, void 0, false, {
                             fileName: "[project]/components/sections/sect-events.tsx",
-                            lineNumber: 626,
+                            lineNumber: 615,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6522,28 +6474,28 @@ function SectionEvenements() {
                                     spanRows: evt.spanRows
                                 }, evt.id, false, {
                                     fileName: "[project]/components/sections/sect-events.tsx",
-                                    lineNumber: 630,
+                                    lineNumber: 619,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/sections/sect-events.tsx",
-                            lineNumber: 628,
+                            lineNumber: 617,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(CtaEvenements, {}, void 0, false, {
                             fileName: "[project]/components/sections/sect-events.tsx",
-                            lineNumber: 640,
+                            lineNumber: 629,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/sections/sect-events.tsx",
-                    lineNumber: 625,
+                    lineNumber: 614,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/sections/sect-events.tsx",
-                lineNumber: 624,
+                lineNumber: 613,
                 columnNumber: 7
             }, this)
         ]

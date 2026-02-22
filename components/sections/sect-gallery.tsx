@@ -24,18 +24,16 @@ type GridCell = {
 };
 
 const PHOTOS: Photo[] = [
-  { src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=85", alt: "Réunion de famille", lieu: "Libreville" },
-  { src: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&q=85", alt: "Fête du clan", lieu: "Lambaréné" },
-  { src: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=85", alt: "Les anciens", lieu: "Port-Gentil" },
-  { src: "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=800&q=85", alt: "Cérémonie traditionnelle", lieu: "Franceville" },
-  { src: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=800&q=85", alt: "Solidarité familiale", lieu: "Oyem" },
-  { src: "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=800&q=85", alt: "Les jeunes du clan", lieu: "Libreville" },
-  { src: "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=800&q=85", alt: "Mariage traditionnel", lieu: "Moanda" },
-  { src: "https://images.unsplash.com/photo-1519340241574-2cec6aef0c01?w=800&q=85", alt: "Remise de diplôme", lieu: "Libreville" },
-  { src: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&q=85", alt: "Projet communautaire", lieu: "Tchibanga" },
-  { src: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=85", alt: "Aide aux vulnérables", lieu: "Port-Gentil" },
-  { src: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&q=85", alt: "Célébration", lieu: "Lambaréné" },
-  { src: "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=800&q=85", alt: "Repas de famille", lieu: "Makokou" },
+  { src: "famille/photoReunion2.png", alt: "Réunion de famille", lieu: "Libreville" },
+  { src: "famille/photo14.png", alt: "Fête du clan", lieu: "Lambaréné" },
+  { src: "famille/photo15.png", alt: "Les anciens", lieu: "Port-Gentil" },
+  { src: "famille/photo2.png", alt: "Cérémonie traditionnelle", lieu: "Franceville" },
+  { src: "famille/photo11.png", alt: "Solidarité familiale", lieu: "Oyem" },
+  { src: "famille/photo17.png", alt: "Les jeunes du clan", lieu: "Libreville" },
+  { src: "famille/photo24.png", alt: "Mariage traditionnel", lieu: "Moanda" },
+  { src: "famille/photo16.png", alt: "Remise de diplôme", lieu: "Libreville" },
+  { src: "famille/photo1.png", alt: "Projet communautaire", lieu: "Tchibanga" },
+  { src: "famille/photo18.png", alt: "Aide aux vulnérables", lieu: "Port-Gentil" },
 ];
 
 // ─── Gabarits de grille (patterns qui se répètent) ───────────────────────────
